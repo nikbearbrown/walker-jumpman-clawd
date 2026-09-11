@@ -1,0 +1,27 @@
+{
+  "engine": "4.7.2-stable (official)",
+  "fps": 30,
+  "frames": 164,
+  "game_source": "unmodified main.tscn and dependencies",
+  "height": 2160,
+  "input_method": "synthetic InputEventKey through Input plus SubViewport delivery",
+  "markers": [
+    "menu",
+    "start",
+    "spike-contact",
+    "automatic-retry",
+    "end"
+  ],
+  "simulation_fps": 60,
+  "status": "PASS",
+  "take": "spike",
+  "test_control": false,
+  "test_mode": false,
+  "width": 3840,
+  "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+  "source_commit": "9387542ca473b0a252c43bfe6d4fd39b61f8d439",
+  "source_worktree": "Clawd modifications, exact build_id is authoritative",
+  "driver_sha256": "b67dc2cfee5e4919d6185199b9e82e6565ade97500b829679f153fcb153d1203",
+  "video_sha256": "5772ba0092a0dc85a4f23ed442ea105d84b67584dcfa174a8af580e7259899e9",
+  "no_skipped_physics_ticks": true
+}

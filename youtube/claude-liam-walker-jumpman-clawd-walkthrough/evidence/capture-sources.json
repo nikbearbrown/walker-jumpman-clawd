@@ -1,0 +1,80 @@
+[
+  {
+    "take": "buffer",
+    "duration_s": 5.2,
+    "sha256": "2708fb8749420dde392250c39628e9de14fbdc617efc8e2813411b502a8f3c3d",
+    "method": "synthetic InputEventKey through Input plus SubViewport delivery"
+  },
+  {
+    "take": "controls",
+    "duration_s": 6.3,
+    "sha256": "ace2e35af82753d7c5cf7e33b149b6b05ad24841c9da55000e5610516e2872b2",
+    "method": "synthetic InputEventKey through Input plus SubViewport delivery"
+  },
+  {
+    "take": "coyote",
+    "duration_s": 6.9,
+    "sha256": "1bf28808997fa2f5179a28c4063a7914007b5c24a3a6353df489fe634b1cd93a",
+    "method": "synthetic InputEventKey through Input plus SubViewport delivery"
+  },
+  {
+    "take": "fall",
+    "duration_s": 6.833333,
+    "sha256": "9104fc799c8a45a5fe35d6be5f0170370931031114b80e991696958e9471ecc4",
+    "method": "synthetic InputEventKey through Input plus SubViewport delivery"
+  },
+  {
+    "take": "finish",
+    "duration_s": 10.066667,
+    "sha256": "f55fec5792e50d7a5789668878edef131f36bc0093186d614b3ea3c419a1a823",
+    "method": "synthetic InputEventKey through Input plus SubViewport delivery"
+  },
+  {
+    "take": "gallery-one",
+    "duration_s": 20.0,
+    "sha256": "dd8eab75bd735b107bac2a6be1535e2a5086df0959f916f7662729c0b0eced9a",
+    "method": "staged native Godot animation gallery; deterministic render-driven clock, not gameplay"
+  },
+  {
+    "take": "gallery-three",
+    "duration_s": 20.0,
+    "sha256": "c650a7c430e87c447695af143990f28f70e246b759f86b3313eaed82ff3e3df5",
+    "method": "staged native Godot animation gallery; deterministic render-driven clock, not gameplay"
+  },
+  {
+    "take": "gallery-two",
+    "duration_s": 20.0,
+    "sha256": "616f9d29f98c1dc74250cad53a0295fe0ac772fdd9aa694d3259801ac25f4f52",
+    "method": "staged native Godot animation gallery; deterministic render-driven clock, not gameplay"
+  },
+  {
+    "take": "inspector",
+    "duration_s": 20.0,
+    "sha256": "91eb0ae85079c4eba672715ed7c3da4a3f82f204b09234667525cfc1d95a2510",
+    "method": "staged native Godot animation gallery; deterministic render-driven clock, not gameplay"
+  },
+  {
+    "take": "jump",
+    "duration_s": 6.366667,
+    "sha256": "3a4a5759514a2148b5a4953a981331e1e2fcb2711ee2b40cb72f5d81f5766c33",
+    "method": "synthetic InputEventKey through Input plus SubViewport delivery"
+  },
+  {
+    "take": "mouse",
+    "duration_s": 5.066667,
+    "sha256": "3e55cbcd5070e18d6e59d57be13e795ec8477c3a0b7d5fee67f8aa0d54fae7cb",
+    "method": "synthetic InputEventKey through Input plus SubViewport delivery"
+  },
+  {
+    "take": "pause",
+    "duration_s": 9.2,
+    "sha256": "585bdb7f4b6be92886234c7fec11ea2cf8fd723b9de15220c10e9cd55158de79",
+    "method": "synthetic InputEventKey through Input plus SubViewport delivery"
+  },
+  {
+    "take": "spike",
+    "duration_s": 5.466667,
+    "sha256": "5772ba0092a0dc85a4f23ed442ea105d84b67584dcfa174a8af580e7259899e9",
+    "method": "synthetic InputEventKey through Input plus SubViewport delivery"
+  }
+]

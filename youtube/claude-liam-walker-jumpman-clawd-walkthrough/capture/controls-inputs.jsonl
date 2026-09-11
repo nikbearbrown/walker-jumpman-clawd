@@ -1,0 +1,16 @@
+{"detail":"menu","frame60":59,"kind":"marker","time_s":0.983333333333333}
+{"detail":"Enter","frame60":59,"kind":"key_down","time_s":0.983333333333333}
+{"detail":"Enter","frame60":61,"kind":"key_up","time_s":1.01666666666667}
+{"detail":"start","frame60":63,"kind":"marker","time_s":1.05}
+{"detail":"A","frame60":93,"kind":"key_down","time_s":1.55}
+{"detail":"A","frame60":140,"kind":"key_up","time_s":2.33333333333333}
+{"detail":"left-boundary","frame60":142,"kind":"marker","time_s":2.36666666666667}
+{"detail":"Right","frame60":172,"kind":"key_down","time_s":2.86666666666667}
+{"detail":"Right","frame60":203,"kind":"key_up","time_s":3.38333333333333}
+{"detail":"accelerate-stop","frame60":230,"kind":"marker","time_s":3.83333333333333}
+{"detail":"A","frame60":230,"kind":"key_down","time_s":3.83333333333333}
+{"detail":"D","frame60":232,"kind":"key_down","time_s":3.86666666666667}
+{"detail":"opposing-inputs","frame60":259,"kind":"marker","time_s":4.31666666666667}
+{"detail":"A","frame60":259,"kind":"key_up","time_s":4.31666666666667}
+{"detail":"D","frame60":261,"kind":"key_up","time_s":4.35}
+{"detail":"end","frame60":378,"kind":"marker","time_s":6.3}

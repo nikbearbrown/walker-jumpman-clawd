@@ -1,0 +1,44 @@
+[
+  {
+    "source_reel": "claude-liam-walker-jumpman-clawd-walkthrough",
+    "source_beat": "B01",
+    "destination_beat": "B01",
+    "sha256": "7bd73fb95c99e38cfb1cc9b9ec3275353a3260a55962ce7fefbb5c8735b53e06",
+    "reason": "Identical scene recipe and measured duration; reuse already inspected 4K output."
+  },
+  {
+    "source_reel": "claude-liam-walker-jumpman-clawd-walkthrough",
+    "source_beat": "B02",
+    "destination_beat": "B02",
+    "sha256": "26f79a1183a168410b3cd42dbcce9d64cfbc1fd50c20bf8bb883a8522d19c597",
+    "reason": "Identical scene recipe and measured duration; reuse already inspected 4K output."
+  },
+  {
+    "source_reel": "claude-liam-walker-jumpman-clawd-walkthrough",
+    "source_beat": "B13",
+    "destination_beat": "B17",
+    "sha256": "3d5857bb18fb2c57b343c95275da06f83ffa2fe3d541d5d20da8e69bdc830f36",
+    "reason": "Identical scene recipe and measured duration; reuse already inspected 4K output."
+  },
+  {
+    "source_reel": "claude-liam-walker-jumpman-clawd-walkthrough",
+    "source_beat": "B14",
+    "destination_beat": "B18",
+    "sha256": "d651fe8bc585c2307d40f7fe00c2d6705b533c9a04af5efb074eb1b942a40d5f",
+    "reason": "Identical scene recipe and measured duration; reuse already inspected 4K output."
+  },
+  {
+    "source_reel": "claude-liam-walker-jumpman-clawd-walkthrough",
+    "source_beat": "B18",
+    "destination_beat": "B23",
+    "sha256": "9c7b84ceb19e7bba27f7def49dc80fd884e9df656290ec309c8b3a7434e77008",
+    "reason": "Identical scene recipe and measured duration; reuse already inspected 4K output."
+  },
+  {
+    "source_reel": "claude-liam-walker-jumpman-clawd-walkthrough",
+    "source_beat": "B19",
+    "destination_beat": "B24",
+    "sha256": "80c6c30f5c6ea918df183da517f3b4ffd863c2fe2d4ca8f5de7f7fca4eb115ce",
+    "reason": "Identical scene recipe and measured duration; reuse already inspected 4K output."
+  }
+]

@@ -1,0 +1,1600 @@
+{
+  "metadata": {
+    "slug": "claude-liam-walker-jumpman-clawd-gamedev",
+    "title": "Building Clawd: One Change at a Time",
+    "persona": "Liam",
+    "palette": "claude",
+    "engine": "kokoro",
+    "voice": "am_onyx",
+    "voice_kokoro": "am_onyx",
+    "fps": 30,
+    "width": 3840,
+    "height": 2160,
+    "aspect_ratio": "16:9",
+    "caption_policy": "SRT sidecar; no burned captions",
+    "fit": "pad",
+    "skill": "godot-gamedev",
+    "modifier": "walker",
+    "human_review_approved": false,
+    "authorization": "Bear requested the Clawd iteration and both Liam films. Local free render for review; no YouTube publication.",
+    "audio_locked": true,
+    "duration_s": 461.4666666666667,
+    "build": {
+      "at": "2026-09-11T01:42:31",
+      "cut": "master",
+      "filled": 26,
+      "of": 26,
+      "slates": [],
+      "skin_warnings": []
+    }
+  },
+  "beats": [
+    {
+      "beat_id": "B00",
+      "heading": "Professor Bear starts Assignment 1",
+      "narration_text": "Please use Walker to convert my game design document about a coding-agent platformer into one small revision: put Clawd in the existing level. Preserve the mechanics. I'm Liam, in for Professor Bear. His project is Walker Jumpman Clawd. The opening prompt is a suggested handoff, not a saved conversation.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Professor Bear starts Assignment 1",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Professor Bear starts Assignment 1"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "command": "Please use Walker to convert my game design document\nabout a coding-agent platformer into one small revision:\nput Clawd in the existing level. Preserve the mechanics.",
+            "topic": "Suggested prompt · not a saved Claude conversation",
+            "segment": "Building Clawd: One Change at a Time",
+            "greeting": "Hello, Liam",
+            "runningText": "",
+            "output": [],
+            "folderLabel": "walker-jumpman-clawd",
+            "modelLabel": "Claude Code",
+            "effortLabel": "",
+            "placeholder": "",
+            "durationSeconds": 17.433333333333334
+          },
+          "rendered": {
+            "out": "media/B00.mp4",
+            "at": "2026-09-11T05:30:35.803577+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B00.wav",
+      "actual_duration_s": 17.433333333333334,
+      "render_duration_s": 17.433333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B00.mp4",
+        "filled_by": "remotion:ClaudeComposerAsk",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B01",
+      "heading": "One character, the same level",
+      "narration_text": "We have changed the character, not completed the assignment. Clawd now moves through the existing First Steps level. The physics and layout remain the starter's. A separate gallery contains eighteen animations. Task mini-goals, new hazards, and the required level extension are later decisions. This is the first revision of a semester-long example.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "One character, the same level",
+        "show": [
+          {
+            "at": "beat",
+            "event": "One character, the same level"
+          }
+        ],
+        "remotion": {
+          "pattern": "BrutalistHesitantWriter",
+          "props": {
+            "text": "Build everything today.",
+            "triggerWords": "everything",
+            "replacementWords": "one change",
+            "fontSize": 92,
+            "mistakeRate": 0,
+            "hesitateWithin": 0,
+            "hesitateBetween": 0,
+            "charMs": 60,
+            "jitter": 0,
+            "seed": "claude-liam-walker-jumpman-clawd-walkthrough",
+            "face": "serif",
+            "align": "center",
+            "durationSeconds": 19.7
+          }
+        }
+      },
+      "lead_silence_s": 0.8,
+      "audio_file": "audio/B01.wav",
+      "actual_duration_s": 19.7,
+      "render_duration_s": 19.7,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B01.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B02",
+      "heading": "The loop is one inspectable change",
+      "narration_text": "Predict what might break. Build one change. Play it, inspect the evidence, revise, then record the version. Here the prediction is specific: Clawd's wide arms might make the unchanged collision box misleading. A small experiment gives us a question to answer. Changing the character, level, and physics together would make that answer harder to isolate.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "The loop is one inspectable change",
+        "show": [
+          {
+            "at": "beat",
+            "event": "The loop is one inspectable change"
+          }
+        ],
+        "remotion": {
+          "pattern": "AssignmentBoard",
+          "props": {
+            "title": "The loop is one inspectable change",
+            "rows": [
+              [
+                "Predict",
+                "Wide art may mislead collision judgment"
+              ],
+              [
+                "Build and inspect",
+                "Character only; compare against the starter"
+              ],
+              [
+                "Record and revise",
+                "Evidence → one next decision"
+              ]
+            ],
+            "note": "CHANGE-BRIEF.md · Walker: Brief → Build → Playtest → Inspect → Revise → Export",
+            "durationSeconds": 18.433333333333334
+          }
+        }
+      },
+      "audio_file": "audio/B02.wav",
+      "actual_duration_s": 18.433333333333334,
+      "render_duration_s": 18.433333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B02.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B03",
+      "heading": "The same scene, a new presentation layer",
+      "narration_text": "The project still starts from main dot t s c n. The session constructs platforms, hazards, player, camera, and a separate interface layer. Clawd art is a drawing helper called by the player. There is no imported sprite sheet, AnimationPlayer node, or hidden agent service. The coding agent is the character's theme, not an autonomous player.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "The same scene, a new presentation layer",
+        "show": [
+          {
+            "at": "beat",
+            "event": "The same scene, a new presentation layer"
+          }
+        ],
+        "remotion": {
+          "pattern": "GodotDevWorkbench",
+          "props": {
+            "mode": "tree",
+            "title": "Same game owners; one new art helper",
+            "project": "walker-jumpman-clawd",
+            "source": "Source-backed runtime anatomy · game/main.tscn + session.gd",
+            "treeLabel": "Runtime construction, not a captured Remote dock",
+            "tree": [
+              "WalkerJumpman — session.gd",
+              "  Platforms / hazards / finish",
+              "  Player — player.gd",
+              "    CollisionShape2D",
+              "  Camera2D",
+              "  CanvasLayer → HUD"
+            ],
+            "notes": [
+              {
+                "label": "New helper",
+                "value": "clawd_art.gd: drawing only"
+              },
+              {
+                "label": "Unchanged data",
+                "value": "first_steps.json + tuning.gd"
+              }
+            ],
+            "output": [
+              "Library gallery is a separate scene."
+            ],
+            "durationSeconds": 18.933333333333334
+          },
+          "rendered": {
+            "out": "media/B03.mp4",
+            "at": "2026-09-11T05:26:57.682552+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B03.wav",
+      "actual_duration_s": 18.933333333333334,
+      "render_duration_s": 18.933333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B03.mp4",
+        "filled_by": "remotion:GodotDevWorkbench",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B04",
+      "heading": "Keep collision separate from the art",
+      "narration_text": "The rectangle shape is eighteen by twenty-eight, centered fourteen units above the player's origin. That places the reference at the feet. We preserved this code. Changing the picture does not change this collider, and testing the drawing alone cannot establish that the visual boundary feels fair.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Keep collision separate from the art",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Keep collision separate from the art"
+          }
+        ],
+        "remotion": {
+          "pattern": "GodotDevWorkbench",
+          "props": {
+            "mode": "code",
+            "title": "Keep collision separate from the art",
+            "project": "walker-jumpman-clawd",
+            "path": "features/player/player.gd",
+            "source": "Exact Clawd source · reconstructed editor · next: actual result",
+            "code": "\tvar shape := RectangleShape2D.new()\n\tshape.size = Vector2(18, 28)\n\tvar collider := CollisionShape2D.new()\n\tcollider.shape = shape\n\tcollider.position = Vector2(0, -14)\n\tadd_child(collider)",
+            "startLine": 26,
+            "codeFontSize": 27,
+            "notes": [
+              {
+                "label": "Preserved contract",
+                "value": "18 × 28; origin at feet"
+              },
+              {
+                "label": "Inspect next",
+                "value": "Wide art versus narrow physics"
+              }
+            ],
+            "output": [
+              "Source snapshot: evidence/source-build.json"
+            ],
+            "cues": [
+              {
+                "at": 1.0,
+                "line": 26,
+                "label": "Keep collision separate from the art"
+              }
+            ],
+            "durationSeconds": 16.166666666666668
+          },
+          "rendered": {
+            "out": "media/B04.mp4",
+            "at": "2026-09-11T05:27:31.059292+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B04.wav",
+      "actual_duration_s": 16.166666666666668,
+      "render_duration_s": 16.166666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B04.mp4",
+        "filled_by": "remotion:GodotDevWorkbench",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B05",
+      "heading": "See the mismatch before fixing it",
+      "narration_text": "The blue outline is the collision reference; the orange arms extend beyond it. Both views are enlarged, staged Godot drawings, not gameplay. We have exposed the design question instead of quietly widening the collider. That would change which hazards and landings collide, so it deserves its own prediction and regression tests.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "FOOTAGE",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "See the mismatch before fixing it",
+        "show": [
+          {
+            "at": "beat",
+            "event": "See the mismatch before fixing it"
+          }
+        ],
+        "evidence_media": "media/source-inspector.mp4"
+      },
+      "gameplay_take": "inspector",
+      "audio_file": "audio/B05.wav",
+      "actual_duration_s": 17.733333333333334,
+      "qc": {
+        "contrast_reason": "Native Godot diagnostic: measure its actual text bands; inspect the drawings separately. All other gates remain enabled.",
+        "contrast_regions": [
+          {
+            "label": "Diagnostic title",
+            "box": [
+              0.05,
+              0.04,
+              0.91,
+              0.105
+            ]
+          },
+          {
+            "label": "Diagnostic disclosure",
+            "box": [
+              0.05,
+              0.108,
+              0.95,
+              0.178
+            ]
+          },
+          {
+            "label": "Diagnostic footer",
+            "box": [
+              0.05,
+              0.88,
+              0.95,
+              0.94
+            ]
+          }
+        ]
+      },
+      "render_duration_s": 17.733333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B05.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B06",
+      "heading": "Choose the pose from real state",
+      "narration_text": "This selector reads the session result, then grounded state and horizontal speed. Completion celebrates, failure uses error, air uses the jump pose, and speed chooses walk or run. These names do not add inputs. Run is an animation at the existing speed, not a new sprint button.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Choose the pose from real state",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Choose the pose from real state"
+          }
+        ],
+        "remotion": {
+          "pattern": "GodotDevWorkbench",
+          "props": {
+            "mode": "code",
+            "title": "Choose the pose from real state",
+            "project": "walker-jumpman-clawd",
+            "path": "features/player/player.gd",
+            "source": "Exact Clawd source · reconstructed editor · next: actual result",
+            "code": "func visual_animation() -> String:\n\tvar context: String = get_parent().player_animation_context()\n\tif context == \"complete\": return \"celebrate\"\n\tif context == \"failed\": return \"error\"\n\tif not enabled: return \"idle\"\n\tif not is_on_floor(): return \"jump\"\n\tif absf(velocity.x) >= 100: return \"run\"\n\tif absf(velocity.x) > 8: return \"walk\"\n\treturn \"idle\"",
+            "startLine": 73,
+            "codeFontSize": 27,
+            "notes": [
+              {
+                "label": "Source of truth",
+                "value": "Session + floor + velocity"
+              },
+              {
+                "label": "Not implemented",
+                "value": "Sprint, crouch input, or powers"
+              }
+            ],
+            "output": [
+              "Source snapshot: evidence/source-build.json"
+            ],
+            "cues": [
+              {
+                "at": 1.0,
+                "line": 73,
+                "label": "Choose the pose from real state"
+              }
+            ],
+            "durationSeconds": 16.2
+          },
+          "rendered": {
+            "out": "media/B06.mp4",
+            "at": "2026-09-11T05:28:09.229892+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B06.wav",
+      "actual_duration_s": 16.2,
+      "render_duration_s": 16.2,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B06.mp4",
+        "filled_by": "remotion:GodotDevWorkbench",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B07",
+      "heading": "The selected pose follows the movement",
+      "narration_text": "Watch Clawd start, move, brake, and stand still. The faster leg motion belongs to the existing velocity; it is not driving the body. The controller remains authoritative. The capture exercises both directions and opposing inputs. Judge the silhouette while it moves, not only when a character sheet looks tidy.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "FOOTAGE",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "The selected pose follows the movement",
+        "show": [
+          {
+            "at": "beat",
+            "event": "The selected pose follows the movement"
+          }
+        ],
+        "evidence_media": "media/source-controls.mp4"
+      },
+      "gameplay_take": "controls",
+      "audio_file": "audio/B07.wav",
+      "actual_duration_s": 17.433333333333334,
+      "qc": {
+        "full_bleed": true,
+        "full_bleed_reason": "Actual native 4K Godot gameplay fills the frame; not a slide with title-safe margins. Inspect all original HUD text and action.",
+        "contrast_reason": "The world includes a dimming scrim on state cards. Region checks measure actual stable text, while manual full-frame review checks game/action/card readability. Other gates remain enabled.",
+        "contrast_regions": [
+          {
+            "label": "Title",
+            "box": [
+              0.025,
+              0.025,
+              0.4,
+              0.082
+            ]
+          },
+          {
+            "label": "Controls",
+            "box": [
+              0.025,
+              0.1,
+              0.7,
+              0.15
+            ]
+          },
+          {
+            "label": "Evidence disclosure",
+            "box": [
+              0.045,
+              0.215,
+              0.81,
+              0.275
+            ]
+          },
+          {
+            "label": "Game footer",
+            "box": [
+              0.025,
+              0.94,
+              0.45,
+              0.995
+            ]
+          }
+        ]
+      },
+      "render_duration_s": 17.433333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B07.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B08",
+      "heading": "Do not draw a second jump arc",
+      "narration_text": "The paint helper treats airborne rendering specially. It samples the library's apex pose, then removes the gallery's decorative vertical jump offset. The CharacterBody supplies the actual trajectory. Without that separation, the drawing could appear to hop independently of the collider, making a valid landing look wrong.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Do not draw a second jump arc",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Do not draw a second jump arc"
+          }
+        ],
+        "remotion": {
+          "pattern": "GodotDevWorkbench",
+          "props": {
+            "mode": "code",
+            "title": "Do not draw a second jump arc",
+            "project": "walker-jumpman-clawd",
+            "path": "features/player/clawd_art.gd",
+            "source": "Exact Clawd source · reconstructed editor · next: actual result",
+            "code": "\tvar s := sample(\"jump\" if airborne else animation, 0.1 if airborne else seconds)\n\tif airborne: s.y = 86 * (1 - s.sy)",
+            "startLine": 87,
+            "codeFontSize": 27,
+            "notes": [
+              {
+                "label": "Animation",
+                "value": "Held apex pose"
+              },
+              {
+                "label": "Motion",
+                "value": "Existing CharacterBody2D physics"
+              }
+            ],
+            "output": [
+              "Source snapshot: evidence/source-build.json"
+            ],
+            "cues": [
+              {
+                "at": 1.0,
+                "line": 87,
+                "label": "Do not draw a second jump arc"
+              }
+            ],
+            "durationSeconds": 17.766666666666666
+          },
+          "rendered": {
+            "out": "media/B08.mp4",
+            "at": "2026-09-11T05:28:51.321478+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B08.wav",
+      "actual_duration_s": 17.766666666666666,
+      "render_duration_s": 17.766666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B08.mp4",
+        "filled_by": "remotion:GodotDevWorkbench",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B09",
+      "heading": "Physics carries the visible jump",
+      "narration_text": "The character takes off and lands once. Holding the button does not cause another jump, and the midair press does not add a double jump. The new art stays attached to the body's trajectory. This is the visible consequence of separating display animation from the game's physical movement.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "FOOTAGE",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Physics carries the visible jump",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Physics carries the visible jump"
+          }
+        ],
+        "evidence_media": "media/source-jump.mp4"
+      },
+      "gameplay_take": "jump",
+      "audio_file": "audio/B09.wav",
+      "actual_duration_s": 15.433333333333334,
+      "qc": {
+        "full_bleed": true,
+        "full_bleed_reason": "Actual native 4K Godot gameplay fills the frame; not a slide with title-safe margins. Inspect all original HUD text and action.",
+        "contrast_reason": "The world includes a dimming scrim on state cards. Region checks measure actual stable text, while manual full-frame review checks game/action/card readability. Other gates remain enabled.",
+        "contrast_regions": [
+          {
+            "label": "Title",
+            "box": [
+              0.025,
+              0.025,
+              0.4,
+              0.082
+            ]
+          },
+          {
+            "label": "Controls",
+            "box": [
+              0.025,
+              0.1,
+              0.7,
+              0.15
+            ]
+          },
+          {
+            "label": "Evidence disclosure",
+            "box": [
+              0.045,
+              0.215,
+              0.81,
+              0.275
+            ]
+          },
+          {
+            "label": "Game footer",
+            "box": [
+              0.025,
+              0.94,
+              0.45,
+              0.995
+            ]
+          }
+        ]
+      },
+      "render_duration_s": 15.433333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B09.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B10",
+      "heading": "Session state owns failure and success",
+      "narration_text": "This small read-only method translates the existing session state into presentation context. Complete, failed, and paused are descriptions for the drawing layer. The method does not change state, grant completion, or postpone a retry. Keeping ownership here prevents a missing or slow animation from deciding whether the game recovers.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Session state owns failure and success",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Session state owns failure and success"
+          }
+        ],
+        "remotion": {
+          "pattern": "GodotDevWorkbench",
+          "props": {
+            "mode": "code",
+            "title": "Session state owns failure and success",
+            "project": "walker-jumpman-clawd",
+            "path": "game/session.gd",
+            "source": "Exact Clawd source · reconstructed editor · next: actual result",
+            "code": "func player_animation_context() -> String:\n\t# Presentation reads session state; it never changes the gameplay state machine.\n\tmatch state:\n\t\tState.COMPLETE: return \"complete\"\n\t\tState.DYING: return \"failed\"\n\t\tState.PAUSED: return \"paused\"\n\treturn \"playing\"",
+            "startLine": 3,
+            "codeFontSize": 27,
+            "notes": [
+              {
+                "label": "Direction",
+                "value": "Game state → presentation"
+              },
+              {
+                "label": "No reverse control",
+                "value": "Animation does not end the attempt"
+              }
+            ],
+            "output": [
+              "Source snapshot: evidence/source-build.json"
+            ],
+            "cues": [
+              {
+                "at": 1.0,
+                "line": 3,
+                "label": "Session state owns failure and success"
+              }
+            ],
+            "durationSeconds": 18.666666666666668
+          },
+          "rendered": {
+            "out": "media/B10.mp4",
+            "at": "2026-09-11T05:31:21.271622+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B10.wav",
+      "actual_duration_s": 18.666666666666668,
+      "render_duration_s": 18.666666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B10.mp4",
+        "filled_by": "remotion:GodotDevWorkbench",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B11",
+      "heading": "The error animation does not own retry",
+      "narration_text": "Clawd reaches the spike, reacts, and returns to the start on the existing timer. The brief error animation does not have to finish before the game can reset. This is a small example of a useful boundary: presentation describes the outcome; the session decides the outcome.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "FOOTAGE",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "The error animation does not own retry",
+        "show": [
+          {
+            "at": "beat",
+            "event": "The error animation does not own retry"
+          }
+        ],
+        "evidence_media": "media/source-spike.mp4"
+      },
+      "gameplay_take": "spike",
+      "audio_file": "audio/B11.wav",
+      "actual_duration_s": 15.733333333333333,
+      "qc": {
+        "full_bleed": true,
+        "full_bleed_reason": "Actual native 4K Godot gameplay fills the frame; not a slide with title-safe margins. Inspect all original HUD text and action.",
+        "contrast_reason": "The world includes a dimming scrim on state cards. Region checks measure actual stable text, while manual full-frame review checks game/action/card readability. Other gates remain enabled.",
+        "contrast_regions": [
+          {
+            "label": "Title",
+            "box": [
+              0.025,
+              0.025,
+              0.4,
+              0.082
+            ]
+          },
+          {
+            "label": "Controls",
+            "box": [
+              0.025,
+              0.1,
+              0.7,
+              0.15
+            ]
+          },
+          {
+            "label": "Evidence disclosure",
+            "box": [
+              0.045,
+              0.215,
+              0.81,
+              0.275
+            ]
+          },
+          {
+            "label": "Game footer",
+            "box": [
+              0.025,
+              0.94,
+              0.45,
+              0.995
+            ]
+          }
+        ]
+      },
+      "render_duration_s": 15.733333333333333,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B11.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B12",
+      "heading": "Freeze the presentation clock on pause",
+      "narration_text": "The frame update returns immediately when the session says paused. Otherwise it chooses a pose, resets the animation clock on a pose change, advances time, and requests a redraw. None of those lines update velocity or collision. Pause therefore freezes the pose without replacing the original player physics function.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Freeze the presentation clock on pause",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Freeze the presentation clock on pause"
+          }
+        ],
+        "remotion": {
+          "pattern": "GodotDevWorkbench",
+          "props": {
+            "mode": "code",
+            "title": "Freeze the presentation clock on pause",
+            "project": "walker-jumpman-clawd",
+            "path": "features/player/player.gd",
+            "source": "Exact Clawd source · reconstructed editor · next: actual result",
+            "code": "func _process(delta: float) -> void:\n\tif get_parent().player_animation_context() == \"paused\": return\n\tvar next_animation := visual_animation()\n\tif next_animation != animation_name:\n\t\tanimation_seconds = 0.0\n\t\tanimation_name = next_animation\n\tanimation_seconds += delta\n\tqueue_redraw()",
+            "startLine": 83,
+            "codeFontSize": 27,
+            "notes": [
+              {
+                "label": "Clock",
+                "value": "Display time, not physics tick"
+              },
+              {
+                "label": "Pause",
+                "value": "Return before advancing time"
+              }
+            ],
+            "output": [
+              "Source snapshot: evidence/source-build.json"
+            ],
+            "cues": [
+              {
+                "at": 1.0,
+                "line": 83,
+                "label": "Freeze the presentation clock on pause"
+              }
+            ],
+            "durationSeconds": 17.966666666666665
+          },
+          "rendered": {
+            "out": "media/B12.mp4",
+            "at": "2026-09-11T05:32:02.856951+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B12.wav",
+      "actual_duration_s": 17.966666666666665,
+      "render_duration_s": 17.966666666666665,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B12.mp4",
+        "filled_by": "remotion:GodotDevWorkbench",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B13",
+      "heading": "Paused means the pose stops too",
+      "narration_text": "The jump and its pose hold during pause, then resume. The captured sequence also retries and returns to the menu, with focus loss explicitly simulated. Machine checks support these observations. A human still needs to judge whether the controls and feedback are understandable; a passing script is not that judgment.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "FOOTAGE",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Paused means the pose stops too",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Paused means the pose stops too"
+          }
+        ],
+        "evidence_media": "media/source-pause.mp4"
+      },
+      "gameplay_take": "pause",
+      "audio_file": "audio/B13.wav",
+      "actual_duration_s": 17.866666666666667,
+      "qc": {
+        "full_bleed": true,
+        "full_bleed_reason": "Actual native 4K Godot gameplay fills the frame; not a slide with title-safe margins. Inspect all original HUD text and action.",
+        "contrast_reason": "The world includes a dimming scrim on state cards. Region checks measure actual stable text, while manual full-frame review checks game/action/card readability. Other gates remain enabled.",
+        "contrast_regions": [
+          {
+            "label": "Title",
+            "box": [
+              0.025,
+              0.025,
+              0.4,
+              0.082
+            ]
+          },
+          {
+            "label": "Controls",
+            "box": [
+              0.025,
+              0.1,
+              0.7,
+              0.15
+            ]
+          },
+          {
+            "label": "Evidence disclosure",
+            "box": [
+              0.045,
+              0.215,
+              0.81,
+              0.275
+            ]
+          },
+          {
+            "label": "Game footer",
+            "box": [
+              0.025,
+              0.94,
+              0.45,
+              0.995
+            ]
+          }
+        ]
+      },
+      "render_duration_s": 17.866666666666667,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B13.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B14",
+      "heading": "The level still comes from the same data",
+      "narration_text": "The solids, hazard, and finish coordinates are unchanged. The session builds their collision and drawing; its camera follows the player within the same bounds. The interface still displays the original progress and retry information. No task checkpoint was added just because the character now represents a coding agent.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "The level still comes from the same data",
+        "show": [
+          {
+            "at": "beat",
+            "event": "The level still comes from the same data"
+          }
+        ],
+        "remotion": {
+          "pattern": "GodotDevWorkbench",
+          "props": {
+            "mode": "code",
+            "title": "The level still comes from the same data",
+            "project": "walker-jumpman-clawd",
+            "path": "levels/first_steps.json",
+            "source": "Exact Clawd source · reconstructed editor · next: actual result",
+            "code": "  \"solids\": [[0, 320, 448, 64], [512, 320, 224, 64], [784, 320, 176, 64], [160, 304, 48, 16], [576, 288, 48, 32]],\n  \"hazards\": [[320, 304, 24, 16]],\n  \"finish\": [916, 264, 24, 56]",
+            "startLine": 8,
+            "codeFontSize": 27,
+            "notes": [
+              {
+                "label": "Preserved",
+                "value": "Layout, camera, HUD and finish"
+              },
+              {
+                "label": "Later",
+                "value": "Mini-goals and level extension"
+              }
+            ],
+            "output": [
+              "Source snapshot: evidence/source-build.json"
+            ],
+            "cues": [
+              {
+                "at": 1.0,
+                "line": 8,
+                "label": "The level still comes from the same data"
+              }
+            ],
+            "durationSeconds": 17.433333333333334
+          },
+          "rendered": {
+            "out": "media/B14.mp4",
+            "at": "2026-09-11T05:32:37.756670+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B14.wav",
+      "actual_duration_s": 17.433333333333334,
+      "render_duration_s": 17.433333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B14.mp4",
+        "filled_by": "remotion:GodotDevWorkbench",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B15",
+      "heading": "The old course still completes",
+      "narration_text": "Follow the unchanged route to the flag. The camera scrolls, the progress bar advances, and completion offers replay. Clawd celebrates, but this is the starter's finish condition. The future full-loop goal requires new state, reset rules, tests, and a design decision. Today we have evidence for this route only.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "FOOTAGE",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "The old course still completes",
+        "show": [
+          {
+            "at": "beat",
+            "event": "The old course still completes"
+          }
+        ],
+        "evidence_media": "media/source-finish.mp4"
+      },
+      "gameplay_take": "finish",
+      "audio_file": "audio/B15.wav",
+      "actual_duration_s": 17.566666666666666,
+      "qc": {
+        "full_bleed": true,
+        "full_bleed_reason": "Actual native 4K Godot gameplay fills the frame; not a slide with title-safe margins. Inspect all original HUD text and action.",
+        "contrast_reason": "The world includes a dimming scrim on state cards. Region checks measure actual stable text, while manual full-frame review checks game/action/card readability. Other gates remain enabled.",
+        "contrast_regions": [
+          {
+            "label": "Title",
+            "box": [
+              0.025,
+              0.025,
+              0.4,
+              0.082
+            ]
+          },
+          {
+            "label": "Controls",
+            "box": [
+              0.025,
+              0.1,
+              0.7,
+              0.15
+            ]
+          },
+          {
+            "label": "Evidence disclosure",
+            "box": [
+              0.045,
+              0.215,
+              0.81,
+              0.275
+            ]
+          },
+          {
+            "label": "Game footer",
+            "box": [
+              0.025,
+              0.94,
+              0.45,
+              0.995
+            ]
+          }
+        ]
+      },
+      "render_duration_s": 17.566666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B15.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B16",
+      "heading": "Tests have different jobs",
+      "narration_text": "The original twenty-five mechanics checks and nine keyboard checks pass. A separate test compares a hundred sixty-two animation samples with Brutalist's TypeScript reference and checks presentation selection. These are machine checks, including staged fixtures. The recording driver uses normal input instead. Neither kind proves that Bear likes the character or that another player understands it.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Tests have different jobs",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Tests have different jobs"
+          }
+        ],
+        "remotion": {
+          "pattern": "AssignmentBoard",
+          "props": {
+            "title": "Tests have different jobs",
+            "rows": [
+              [
+                "Mechanics and input",
+                "25 original checks + 9 keyboard checks"
+              ],
+              [
+                "Animation reference",
+                "162 sampled comparisons + presentation checks"
+              ],
+              [
+                "Human review",
+                "Readability, fairness, and the next decision"
+              ]
+            ],
+            "note": "evidence/clawd/ · godot/tests/ · scripted captures have their own receipts",
+            "durationSeconds": 21.166666666666668
+          },
+          "rendered": {
+            "out": "media/B16.mp4",
+            "at": "2026-09-11T05:33:24.885656+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B16.wav",
+      "actual_duration_s": 21.166666666666668,
+      "render_duration_s": 21.166666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B16.mp4",
+        "filled_by": "remotion:AssignmentBoard",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B17",
+      "heading": "Start early; keep the honest trail",
+      "narration_text": "A first scene can appear quickly. Refinement is where the work continues. Make an improvement today; come back for another improvement or test in the next session. If an attempt does not work, record what you tried, observed, and learned in Frictional. Do not manufacture struggle or pretend these changes happened across several days. This iteration's entries are from one actual session.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Start early; keep the honest trail",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Start early; keep the honest trail"
+          }
+        ],
+        "remotion": {
+          "pattern": "AssignmentBoard",
+          "props": {
+            "title": "Start early; keep the honest trail",
+            "rows": [
+              [
+                "Actual effort",
+                "Intent → attempt → observation"
+              ],
+              [
+                "Useful failure",
+                "What did not work, and what it ruled out"
+              ],
+              [
+                "Next session",
+                "One improvement or test; record human and AI work"
+              ]
+            ],
+            "note": "FRICTIONAL.md · honest evidence, not an hours contest",
+            "durationSeconds": 19.866666666666667
+          }
+        }
+      },
+      "audio_file": "audio/B17.wav",
+      "actual_duration_s": 19.866666666666667,
+      "render_duration_s": 19.866666666666667,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B17.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B18",
+      "heading": "The larger idea stays on the roadmap",
+      "narration_text": "Bear's longer-term idea is a coding agent crossing mini-goals: a task completed, another task checked, and eventually a full agentic loop finished. Those are design notes, not features in today's build. The level extension is still required for Assignment One. Starting with Clawd's appearance lets Bear decide the next step from something he can actually play.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "The larger idea stays on the roadmap",
+        "show": [
+          {
+            "at": "beat",
+            "event": "The larger idea stays on the roadmap"
+          }
+        ],
+        "remotion": {
+          "pattern": "AssignmentBoard",
+          "props": {
+            "title": "The larger idea stays on the roadmap",
+            "rows": [
+              [
+                "Now",
+                "Character in the existing level"
+              ],
+              [
+                "Later",
+                "Task mini-goals → completed agentic loop"
+              ],
+              [
+                "Not finished",
+                "Level extension and final Assignment 1 submission"
+              ]
+            ],
+            "note": "CHANGE-BRIEF.md · proposed direction, not gameplay evidence",
+            "durationSeconds": 19.266666666666666
+          }
+        }
+      },
+      "audio_file": "audio/B18.wav",
+      "actual_duration_s": 19.266666666666666,
+      "render_duration_s": 19.266666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B18.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B19",
+      "heading": "One catalogue feeds a separate gallery",
+      "narration_text": "The gallery chooses six names for its current page and calls the same painting helper used by the player. This keeps the preview connected to the real implementation. The next three pages show all eighteen available animations. Only the smaller state-driven subset is connected to gameplay; a preview does not create an ability.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "One catalogue feeds a separate gallery",
+        "show": [
+          {
+            "at": "beat",
+            "event": "One catalogue feeds a separate gallery"
+          }
+        ],
+        "remotion": {
+          "pattern": "GodotDevWorkbench",
+          "props": {
+            "mode": "code",
+            "title": "One catalogue feeds a separate gallery",
+            "project": "walker-jumpman-clawd",
+            "path": "gallery/clawd_gallery.gd",
+            "source": "Exact Clawd source · reconstructed editor · next: actual result",
+            "code": "\t\tvar animation: String = Art.ANIMATIONS[page * 6 + i]\n\t\tdraw_line(Vector2(x - 60, y + 2), Vector2(x + 60, y + 2), Color(\"ddd8d0\"))\n\t\tArt.paint(self, animation, fmod(seconds, 9.0), Vector2(x, y), 0.55)",
+            "startLine": 34,
+            "codeFontSize": 27,
+            "notes": [
+              {
+                "label": "Same renderer",
+                "value": "Player and gallery share ClawdArt"
+              },
+              {
+                "label": "Separate purpose",
+                "value": "Visual catalogue, not new controls"
+              }
+            ],
+            "output": [
+              "Source snapshot: evidence/source-build.json"
+            ],
+            "cues": [
+              {
+                "at": 1.0,
+                "line": 34,
+                "label": "One catalogue feeds a separate gallery"
+              }
+            ],
+            "durationSeconds": 18.2
+          },
+          "rendered": {
+            "out": "media/B19.mp4",
+            "at": "2026-09-11T05:34:02.117323+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/B19.wav",
+      "actual_duration_s": 18.2,
+      "render_duration_s": 18.2,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B19.mp4",
+        "filled_by": "remotion:GodotDevWorkbench",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B20",
+      "heading": "Gallery 1: idle through run",
+      "narration_text": "Idle, bounce, wave, look, walk, and run. Watch the four legs alternate and the eyes scan. These are actual Godot gallery previews of the ported library. Bounce and wave are available artwork, not player commands in this level. The gallery lets us judge options before choosing more behavior.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "FOOTAGE",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Gallery 1: idle through run",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Gallery 1: idle through run"
+          }
+        ],
+        "evidence_media": "media/source-gallery-one.mp4"
+      },
+      "gameplay_take": "gallery-one",
+      "audio_file": "audio/B20.wav",
+      "actual_duration_s": 16.733333333333334,
+      "qc": {
+        "contrast_reason": "Native Godot diagnostic: measure its actual text bands; inspect the drawings separately. All other gates remain enabled.",
+        "contrast_regions": [
+          {
+            "label": "Diagnostic title",
+            "box": [
+              0.05,
+              0.04,
+              0.91,
+              0.105
+            ]
+          },
+          {
+            "label": "Diagnostic disclosure",
+            "box": [
+              0.05,
+              0.108,
+              0.95,
+              0.178
+            ]
+          },
+          {
+            "label": "Diagnostic footer",
+            "box": [
+              0.05,
+              0.88,
+              0.95,
+              0.94
+            ]
+          }
+        ]
+      },
+      "render_duration_s": 16.733333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B20.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B21",
+      "heading": "Gallery 2: thought and reaction",
+      "narration_text": "Think, type, sleep, error, nod, and shake. Their names suggest possible future coding-agent moments, but naming an animation does not implement a task system. Error currently reacts to failure; the others remain catalogue options. Choose a future state for a reason, then test whether the animation communicates it.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "FOOTAGE",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Gallery 2: thought and reaction",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Gallery 2: thought and reaction"
+          }
+        ],
+        "evidence_media": "media/source-gallery-two.mp4"
+      },
+      "gameplay_take": "gallery-two",
+      "audio_file": "audio/B21.wav",
+      "actual_duration_s": 17.533333333333335,
+      "qc": {
+        "contrast_reason": "Native Godot diagnostic: measure its actual text bands; inspect the drawings separately. All other gates remain enabled.",
+        "contrast_regions": [
+          {
+            "label": "Diagnostic title",
+            "box": [
+              0.05,
+              0.04,
+              0.91,
+              0.105
+            ]
+          },
+          {
+            "label": "Diagnostic disclosure",
+            "box": [
+              0.05,
+              0.108,
+              0.95,
+              0.178
+            ]
+          },
+          {
+            "label": "Diagnostic footer",
+            "box": [
+              0.05,
+              0.88,
+              0.95,
+              0.94
+            ]
+          }
+        ]
+      },
+      "render_duration_s": 17.533333333333335,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B21.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B22",
+      "heading": "Gallery 3: motion and celebration",
+      "narration_text": "Dance, stretch, crouch, jump, spin, and celebrate. Spin flips horizontally instead of rotating the pixel rectangles. The gallery jump is decorative; gameplay uses its held pose while physics moves the body. Celebrate is connected to the current finish. All eighteen are here to inspect, not a promise of eighteen powers.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "FOOTAGE",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Gallery 3: motion and celebration",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Gallery 3: motion and celebration"
+          }
+        ],
+        "evidence_media": "media/source-gallery-three.mp4"
+      },
+      "gameplay_take": "gallery-three",
+      "audio_file": "audio/B22.wav",
+      "actual_duration_s": 17.566666666666666,
+      "qc": {
+        "contrast_reason": "Native Godot diagnostic: measure its actual text bands; inspect the drawings separately. All other gates remain enabled.",
+        "contrast_regions": [
+          {
+            "label": "Diagnostic title",
+            "box": [
+              0.05,
+              0.04,
+              0.91,
+              0.105
+            ]
+          },
+          {
+            "label": "Diagnostic disclosure",
+            "box": [
+              0.05,
+              0.108,
+              0.95,
+              0.178
+            ]
+          },
+          {
+            "label": "Diagnostic footer",
+            "box": [
+              0.05,
+              0.88,
+              0.95,
+              0.94
+            ]
+          }
+        ]
+      },
+      "render_duration_s": 17.566666666666666,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B22.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B23",
+      "heading": "The verdict",
+      "narration_text": "The verdict: one recognizable character change, preserved mechanics, and a visible question about collision. The A I wrote and tested the implementation; Bear supplied the intent and chooses what deserves another iteration. Start early enough to inspect the result. A test that reveals a problem can move the project forward without making the feature complete.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "The verdict",
+        "show": [
+          {
+            "at": "beat",
+            "event": "The verdict"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeVerdictArtifact",
+          "props": {
+            "artifactTitle": "Iteration 1 · verdict",
+            "artifactHeading": "One change you can inspect",
+            "artifactLines": [
+              "Clawd is in the existing level.",
+              "Original mechanics remain the baseline.",
+              "Wide art versus collision needs human judgment.",
+              "Mini-goals and the level extension come later."
+            ],
+            "durationSeconds": 19.166666666666668
+          }
+        }
+      },
+      "audio_file": "audio/B23.wav",
+      "actual_duration_s": 19.166666666666668,
+      "render_duration_s": 19.166666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B23.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B24",
+      "heading": "Your turn",
+      "narration_text": "Your turn. Please inspect Walker Jumpman Clawd. Propose one visual improvement and one test. Preserve the mechanics and log the result in Frictional. Before accepting the change, check that it answers a specific observation, leaves the existing controls intact, and names what the test does not establish. Then let a human play. Liam, in for Professor Bear.",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Your turn",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Your turn"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeComposerAsk",
+          "props": {
+            "command": "Please inspect walker-jumpman-clawd.\nPropose one visual improvement and one test.\nPreserve the mechanics and log the result in Frictional.",
+            "topic": "Suggested prompt · not a saved Claude conversation",
+            "segment": "Your turn · review before another change",
+            "greeting": "Your turn.",
+            "runningText": "",
+            "output": [],
+            "folderLabel": "walker-jumpman-clawd",
+            "modelLabel": "Claude Code",
+            "effortLabel": "",
+            "placeholder": "",
+            "durationSeconds": 19.166666666666668
+          }
+        }
+      },
+      "audio_file": "audio/B24.wav",
+      "actual_duration_s": 19.166666666666668,
+      "render_duration_s": 19.166666666666668,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B24.mp4",
+        "filled_by": "media",
+        "at": "2026-09-11T01:42:31"
+      }
+    },
+    {
+      "beat_id": "B25",
+      "heading": "Regular outro",
+      "narration_text": "",
+      "engine": "kokoro",
+      "voice": "am_onyx",
+      "shot": {
+        "type": "REMOTION",
+        "source": "own",
+        "classification": "SHOW",
+        "visual_intent": "Regular outro",
+        "show": [
+          {
+            "at": "beat",
+            "event": "Regular outro"
+          }
+        ],
+        "remotion": {
+          "pattern": "ClaudeTitleOutro",
+          "props": {
+            "title": "Building Clawd: One Change at a Time",
+            "slug": "claude-liam-walker-jumpman-clawd-gamedev",
+            "durationSeconds": 12.333333333333334
+          },
+          "rendered": {
+            "out": "media/B25.mp4",
+            "at": "2026-09-11T05:34:30.116392+00:00"
+          }
+        }
+      },
+      "audio_file": "audio/outro-jingle.mp3",
+      "actual_duration_s": 12.333333333333334,
+      "kind": "outro_jingle",
+      "jingle_source": "/Users/bear/Documents/CoWork/bear-textbooks/books/brutalist.art/svg/claude/mp3/nik-bear-brown-teaching-claude-1.mp3",
+      "jingle_sha256": "6d460137f5baf2b5ecd56f4850479e26383a86643f9d4d6f8e85a3f543c4c22b",
+      "render_duration_s": 12.333333333333334,
+      "build": {
+        "status": "VIDEO",
+        "src": "media/B25.mp4",
+        "filled_by": "remotion:ClaudeTitleOutro",
+        "at": "2026-09-11T01:42:31"
+      }
+    }
+  ]
+}

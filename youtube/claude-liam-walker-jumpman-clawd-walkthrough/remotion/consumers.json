@@ -1,0 +1,44 @@
+{
+  "ClaudeComposerAsk": [
+    {
+      "video": "claude-liam-walker-jumpman-clawd-walkthrough",
+      "beat": "B00"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-walkthrough",
+      "beat": "B19"
+    }
+  ],
+  "BrutalistHesitantWriter": [
+    {
+      "video": "claude-liam-walker-jumpman-clawd-walkthrough",
+      "beat": "B01"
+    }
+  ],
+  "AssignmentBoard": [
+    {
+      "video": "claude-liam-walker-jumpman-clawd-walkthrough",
+      "beat": "B02"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-walkthrough",
+      "beat": "B13"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-walkthrough",
+      "beat": "B14"
+    }
+  ],
+  "ClaudeVerdictArtifact": [
+    {
+      "video": "claude-liam-walker-jumpman-clawd-walkthrough",
+      "beat": "B18"
+    }
+  ],
+  "ClaudeTitleOutro": [
+    {
+      "video": "claude-liam-walker-jumpman-clawd-walkthrough",
+      "beat": "B20"
+    }
+  ]
+}

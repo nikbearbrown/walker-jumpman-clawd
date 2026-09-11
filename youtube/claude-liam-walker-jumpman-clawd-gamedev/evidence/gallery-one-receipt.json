@@ -1,0 +1,19 @@
+{
+  "engine": "4.7.2-stable (official)",
+  "fps": 30,
+  "frames": 600,
+  "height": 2160,
+  "method": "staged native Godot animation gallery; deterministic render-driven clock, not gameplay",
+  "page": 0,
+  "status": "PASS",
+  "take": "gallery-one-v2",
+  "test_control": false,
+  "test_mode": false,
+  "width": 3840,
+  "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+  "source_commit": "f1cc442d41cf4b2f930b5dfa7afa0fc66460870f",
+  "source_worktree": "Clawd modifications, exact build_id is authoritative",
+  "driver_sha256": "703dc7ccc489efe2d6663f89b94cd7843f51171fee67840126353333f4e1efdc",
+  "video_sha256": "dd8eab75bd735b107bac2a6be1535e2a5086df0959f916f7662729c0b0eced9a",
+  "no_skipped_physics_ticks": false
+}

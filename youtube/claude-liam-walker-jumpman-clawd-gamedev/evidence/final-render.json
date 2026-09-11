@@ -1,0 +1,9 @@
+{
+  "master_sha256": "0f8ef67946b3eb1ea0dd2d0050367a65b98a58ef19bc22fdeed1fe083fb2a577",
+  "width": 3840, "height": 2160, "fps": 30, "duration_seconds": 461.467,
+  "compile_passed": true, "audio_preservation_passed": true,
+  "ai_visual_review_complete": true, "reviewed_master_pages": 79,
+  "sampled_master_frames": 1053, "pixel_distinct_master_frames": 948,
+  "subtitle_cues": 159, "human_playtest": "not claimed",
+  "publication_authorized": true, "report": "../QC.md"
+}

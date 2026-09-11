@@ -1,0 +1,11 @@
+{"detail":"menu","frame60":59,"kind":"marker","time_s":0.983333333333333}
+{"detail":"Enter","frame60":59,"kind":"key_down","time_s":0.983333333333333}
+{"detail":"Enter","frame60":61,"kind":"key_up","time_s":1.01666666666667}
+{"detail":"start","frame60":63,"kind":"marker","time_s":1.05}
+{"detail":"Space","frame60":93,"kind":"key_down","time_s":1.55}
+{"detail":"Space","frame60":95,"kind":"key_up","time_s":1.58333333333333}
+{"detail":"early-input-before-landing","frame60":132,"kind":"marker","time_s":2.2}
+{"detail":"Space","frame60":132,"kind":"key_down","time_s":2.2}
+{"detail":"Space","frame60":134,"kind":"key_up","time_s":2.23333333333333}
+{"detail":"buffered-jump","frame60":151,"kind":"marker","time_s":2.51666666666667}
+{"detail":"end","frame60":311,"kind":"marker","time_s":5.18333333333333}

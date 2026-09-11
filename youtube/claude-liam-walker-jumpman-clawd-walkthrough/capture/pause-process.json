@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/Applications/Godot.app/Contents/MacOS/Godot",
+    "--path",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-walkthrough/_capture-project",
+    "--script",
+    "res://capture_driver.gd",
+    "--fixed-fps",
+    "60",
+    "--quit-after",
+    "2400",
+    "--",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-walkthrough/capture",
+    "pause"
+  ],
+  "exit_code": 0,
+  "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\nOpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro\n\nCAPTURE pause 0.983s menu\nCAPTURE pause 1.050s start\nCAPTURE pause 1.850s pause-mid-jump\nCAPTURE pause 3.417s resume\nCAPTURE pause 4.883s manual-retry\nCAPTURE pause 5.550s simulated-focus-loss\nCAPTURE pause 6.867s main-menu\nCAPTURE pause 7.683s menu-restart\nCAPTURE pause 9.183s end\n{\"engine\":\"4.7.2-stable (official)\",\"fps\":30,\"frames\":276,\"game_source\":\"unmodified main.tscn and dependencies\",\"height\":2160,\"input_method\":\"synthetic InputEventKey through Input plus SubViewport delivery\",\"markers\":[\"menu\",\"start\",\"pause-mid-jump\",\"resume\",\"manual-retry\",\"simulated-focus-loss\",\"main-menu\",\"menu-restart\",\"end\"],\"simulation_fps\":60,\"status\":\"PASS\",\"take\":\"pause\",\"test_control\":false,\"test_mode\":false,\"width\":3840}\n",
+  "stderr": ""
+}

@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/Applications/Godot.app/Contents/MacOS/Godot",
+    "--path",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-walkthrough/_capture-project",
+    "--script",
+    "res://gallery_capture.gd",
+    "--fixed-fps",
+    "60",
+    "--quit-after",
+    "2400",
+    "--",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-walkthrough/capture",
+    "inspector"
+  ],
+  "exit_code": 0,
+  "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\nOpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro\n\n{\"engine\":\"4.7.2-stable (official)\",\"fps\":30,\"frames\":540,\"height\":2160,\"method\":\"staged native Godot animation gallery; not gameplay\",\"page\":-1,\"status\":\"PASS\",\"take\":\"inspector\",\"test_control\":false,\"test_mode\":false,\"width\":3840}\n",
+  "stderr": ""
+}

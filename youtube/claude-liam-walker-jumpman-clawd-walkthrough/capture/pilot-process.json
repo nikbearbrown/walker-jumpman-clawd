@@ -1,0 +1,19 @@
+{
+  "command": [
+    "/Applications/Godot.app/Contents/MacOS/Godot",
+    "--path",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-walkthrough/_capture-project",
+    "--script",
+    "res://capture_driver.gd",
+    "--fixed-fps",
+    "60",
+    "--quit-after",
+    "2400",
+    "--",
+    "/Users/bear/Documents/CoWork/bear-textbooks/books/walker-jumpman-clawd/youtube/claude-liam-walker-jumpman-clawd-walkthrough/capture",
+    "pilot"
+  ],
+  "exit_code": 0,
+  "stdout": "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org\nOpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro\n\nCAPTURE pilot 0.983s menu\nCAPTURE pilot 3.550s end\n{\"engine\":\"4.7.2-stable (official)\",\"fps\":30,\"frames\":107,\"game_source\":\"unmodified main.tscn and dependencies\",\"height\":2160,\"input_method\":\"synthetic InputEventKey through Input plus SubViewport delivery\",\"markers\":[\"menu\",\"end\"],\"simulation_fps\":60,\"status\":\"PASS\",\"take\":\"pilot\",\"test_control\":false,\"test_mode\":false,\"width\":3840}\n",
+  "stderr": ""
+}

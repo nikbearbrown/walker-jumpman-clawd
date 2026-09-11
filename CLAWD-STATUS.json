@@ -14,6 +14,6 @@
   "task_mini_goals": "not implemented",
   "agentic_loop_finish": "not implemented",
   "assignment_1_complete": false,
-  "films": "in production; check each reel's QC receipt for completion",
-  "video_publication": "not authorized"
+  "films": "both native 4K masters rendered and AI visual review complete; walkthrough 6:16, gamedev 7:41; see youtube/*/QC.md",
+  "video_publication": "both public in CSYE 7270 playlist PLMhsxBEsgHFU, positions 2 and 3; 2160p quality availability and English captions verified; see youtube/*/evidence/publication.json"
 }

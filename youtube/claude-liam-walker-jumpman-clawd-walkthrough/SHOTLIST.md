@@ -1,0 +1,23 @@
+# Shot list
+
+- B00 · Professor Bear starts Assignment 1 · REMOTION
+- B01 · One character, the same level · REMOTION
+- B02 · The loop is one inspectable change · REMOTION
+- B03 · Meet Clawd in the original course · FOOTAGE
+- B04 · One body, one physical jump · FOOTAGE
+- B05 · The arm is not the collision box · FOOTAGE
+- B06 · A mistake still returns control · FOOTAGE
+- B07 · Falling is a separate failure route · FOOTAGE
+- B08 · Keep the small forgiveness windows · FOOTAGE
+- B09 · An early press can be remembered · FOOTAGE
+- B10 · Pause is not another animation · FOOTAGE
+- B11 · The mouse path still works · FOOTAGE
+- B12 · Finish this course, then replay · FOOTAGE
+- B13 · Start early; keep the honest trail · REMOTION
+- B14 · The larger idea stays on the roadmap · REMOTION
+- B15 · Gallery 1: idle through run · FOOTAGE
+- B16 · Gallery 2: thought and reaction · FOOTAGE
+- B17 · Gallery 3: motion and celebration · FOOTAGE
+- B18 · The verdict · REMOTION
+- B19 · Your turn · REMOTION
+- B20 · Regular outro · REMOTION

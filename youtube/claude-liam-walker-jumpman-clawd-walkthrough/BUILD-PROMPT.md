@@ -1,0 +1,3 @@
+# Rebuild this Clawd iteration film
+
+Use Brutalist godot-waikthrough with Walker bookends and Liam. Verify source and capture hashes; preserve the original starter. Use local Kokoro, audio lock, actual normal-input Godot takes, and separately labelled diagnostic gallery. Show code then its actual result. Measure durations; never stretch gameplay. Render through scripts/build.py and the canonical remotion_scenes.py/compile.py pipeline at 3840×2160, 30 fps. Run coverage/source, frame-level visual, audio-preservation and SRT checks. Inspect all sampled frames, correct defects, record limits. Keep regular outro music only. No publishing.

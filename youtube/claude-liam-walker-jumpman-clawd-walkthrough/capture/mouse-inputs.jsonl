@@ -1,0 +1,17 @@
+{"detail":"menu","frame60":59,"kind":"marker","time_s":0.983333333333333}
+{"detail":"Enter","frame60":59,"kind":"key_down","time_s":0.983333333333333}
+{"detail":"Enter","frame60":61,"kind":"key_up","time_s":1.01666666666667}
+{"detail":"start","frame60":63,"kind":"marker","time_s":1.05}
+{"detail":"Escape","frame60":93,"kind":"key_down","time_s":1.55}
+{"detail":"Escape","frame60":95,"kind":"key_up","time_s":1.58333333333333}
+{"detail":"button at logical 320,230","frame60":130,"kind":"mouse_down","time_s":2.16666666666667}
+{"detail":"button at logical 320,230","frame60":133,"kind":"mouse_up","time_s":2.21666666666667}
+{"detail":"mouse-resume","frame60":136,"kind":"marker","time_s":2.26666666666667}
+{"detail":"P","frame60":166,"kind":"key_down","time_s":2.76666666666667}
+{"detail":"P","frame60":168,"kind":"key_up","time_s":2.8}
+{"detail":"M","frame60":170,"kind":"key_down","time_s":2.83333333333333}
+{"detail":"M","frame60":172,"kind":"key_up","time_s":2.86666666666667}
+{"detail":"button at logical 320,230","frame60":207,"kind":"mouse_down","time_s":3.45}
+{"detail":"button at logical 320,230","frame60":210,"kind":"mouse_up","time_s":3.5}
+{"detail":"mouse-start","frame60":213,"kind":"marker","time_s":3.55}
+{"detail":"end","frame60":303,"kind":"marker","time_s":5.05}

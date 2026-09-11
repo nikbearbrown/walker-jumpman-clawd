@@ -1,0 +1,306 @@
+{
+  "schema_version": 1,
+  "teaching_contract": "code-then-result-v1",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "531d0d253cec1addb97b2cb2d144b6589ff934513eb9c9b8cf882cb49e4c0c32",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "features/player/clawd_art.gd",
+      "sha256": "af4730c827cf8eaae1c94e848a6ff68f1883b2b7de9b12fdce8d8dd19d6cfd0d",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "features/player/player.gd",
+      "sha256": "5fd90d53f477cdd77bbd1897d2fe09abf37ce4000640e4f66b9066fa92a40778",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "features/player/tuning.gd",
+      "sha256": "7a09e96ef11bfa3e1e3b00849e84ed15b453a2e2780b9c94c90c376aea62aa37",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "gallery/clawd_gallery.gd",
+      "sha256": "104bf4dbff8636a679dc63c43479ed3e496b117020e1aeb0e9bd8cbe8d080f57",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "gallery/clawd_gallery.tscn",
+      "sha256": "57543bc385a08c05d94cca8b8b3620ed54b5040416f249956e8ab9ad64fb6227",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "game/main.tscn",
+      "sha256": "017da6e141ad6f6199a9219208483c82cacd257210dbaa6b1184a27157a63a2f",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "game/session.gd",
+      "sha256": "8a4b63ad50c38c01176545cade23091beb905d8a2e962373fec778bd641431bd",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "levels/first_steps.json",
+      "sha256": "33b9b5c8dd0f0eaf162feed7533dd0d7774dd1e6cd9c9b6f353a849473a23d20",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "project.godot",
+      "sha256": "cf69d0fda359ece4f56e34989b0bcd5b8d04edf371201efde6e374283b7e5807",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "tests/capture_game.gd",
+      "sha256": "5bc82d2360e3758fd8d2f187ee15ddef0cc9afb6da0a7f3b4f37d660d8cff79f",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "tests/clawd-reference.json",
+      "sha256": "d526434e067948bdd0d312b68e3aa21d63378aa89b97ac2eb46906e9ddeca1cf",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "tests/route_driver.gd",
+      "sha256": "21996742044648210c75c6ca56f45f9e2264a45b5d09f8fe214055c047476cb3",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "tests/test_clawd.gd",
+      "sha256": "acfc88d4ea6111b7cbe41f3d9768a7d5fa192f329e3ab54b170d46df82f42766",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "tests/test_game.gd",
+      "sha256": "f41b7299da7cb1003653851749b25f464e48d0e26096e91015a270f83ae26cf4",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "tests/test_keyboard.gd",
+      "sha256": "39b5d37039cee469aa6a87ab45acc852d1c55a7ebcebca5ec328d9d71413c6c9",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    },
+    {
+      "path": "ui/hud.gd",
+      "sha256": "6cdf5b19f3b4684e8375c9db2c595031f76e862ccaa015098d4eb97ea2805e55",
+      "role": "source or test support",
+      "component_ids": [
+        "iteration"
+      ]
+    }
+  ],
+  "exclusions": [],
+  "components": [
+    {
+      "id": "iteration",
+      "files": [
+        ".gitignore",
+        "features/player/clawd_art.gd",
+        "features/player/player.gd",
+        "features/player/tuning.gd",
+        "gallery/clawd_gallery.gd",
+        "gallery/clawd_gallery.tscn",
+        "game/main.tscn",
+        "game/session.gd",
+        "levels/first_steps.json",
+        "project.godot",
+        "tests/capture_game.gd",
+        "tests/clawd-reference.json",
+        "tests/route_driver.gd",
+        "tests/test_clawd.gd",
+        "tests/test_game.gd",
+        "tests/test_keyboard.gd",
+        "ui/hud.gd"
+      ],
+      "beat_ids": [
+        "B03",
+        "B04",
+        "B05",
+        "B06",
+        "B07",
+        "B08",
+        "B09",
+        "B10",
+        "B11",
+        "B12",
+        "B13",
+        "B14",
+        "B15",
+        "B16",
+        "B17",
+        "B18",
+        "B19",
+        "B20",
+        "B21",
+        "B22"
+      ],
+      "explanation": "Runtime scene ownership, player/art/collider, state/clock, level/camera/HUD, numeric reference, staged tests, keyboard tests and route helpers are explained with explicit evidence boundaries."
+    }
+  ],
+  "excerpts": [
+    {
+      "beat_id": "B04",
+      "path": "features/player/player.gd",
+      "start_line": 26,
+      "end_line": 31,
+      "text": "\tvar shape := RectangleShape2D.new()\n\tshape.size = Vector2(18, 28)\n\tvar collider := CollisionShape2D.new()\n\tcollider.shape = shape\n\tcollider.position = Vector2(0, -14)\n\tadd_child(collider)"
+    },
+    {
+      "beat_id": "B06",
+      "path": "features/player/player.gd",
+      "start_line": 73,
+      "end_line": 81,
+      "text": "func visual_animation() -> String:\n\tvar context: String = get_parent().player_animation_context()\n\tif context == \"complete\": return \"celebrate\"\n\tif context == \"failed\": return \"error\"\n\tif not enabled: return \"idle\"\n\tif not is_on_floor(): return \"jump\"\n\tif absf(velocity.x) >= 100: return \"run\"\n\tif absf(velocity.x) > 8: return \"walk\"\n\treturn \"idle\""
+    },
+    {
+      "beat_id": "B08",
+      "path": "features/player/clawd_art.gd",
+      "start_line": 87,
+      "end_line": 88,
+      "text": "\tvar s := sample(\"jump\" if airborne else animation, 0.1 if airborne else seconds)\n\tif airborne: s.y = 86 * (1 - s.sy)"
+    },
+    {
+      "beat_id": "B10",
+      "path": "game/session.gd",
+      "start_line": 3,
+      "end_line": 9,
+      "text": "func player_animation_context() -> String:\n\t# Presentation reads session state; it never changes the gameplay state machine.\n\tmatch state:\n\t\tState.COMPLETE: return \"complete\"\n\t\tState.DYING: return \"failed\"\n\t\tState.PAUSED: return \"paused\"\n\treturn \"playing\""
+    },
+    {
+      "beat_id": "B12",
+      "path": "features/player/player.gd",
+      "start_line": 83,
+      "end_line": 90,
+      "text": "func _process(delta: float) -> void:\n\tif get_parent().player_animation_context() == \"paused\": return\n\tvar next_animation := visual_animation()\n\tif next_animation != animation_name:\n\t\tanimation_seconds = 0.0\n\t\tanimation_name = next_animation\n\tanimation_seconds += delta\n\tqueue_redraw()"
+    },
+    {
+      "beat_id": "B14",
+      "path": "levels/first_steps.json",
+      "start_line": 8,
+      "end_line": 10,
+      "text": "  \"solids\": [[0, 320, 448, 64], [512, 320, 224, 64], [784, 320, 176, 64], [160, 304, 48, 16], [576, 288, 48, 32]],\n  \"hazards\": [[320, 304, 24, 16]],\n  \"finish\": [916, 264, 24, 56]"
+    },
+    {
+      "beat_id": "B19",
+      "path": "gallery/clawd_gallery.gd",
+      "start_line": 34,
+      "end_line": 36,
+      "text": "\t\tvar animation: String = Art.ANIMATIONS[page * 6 + i]\n\t\tdraw_line(Vector2(x - 60, y + 2), Vector2(x + 60, y + 2), Color(\"ddd8d0\"))\n\t\tArt.paint(self, animation, fmod(seconds, 9.0), Vector2(x, y), 0.55)"
+    }
+  ],
+  "code_result_pairs": [
+    {
+      "code_beat": "B04",
+      "result_beat": "B05",
+      "observation": "See the mismatch before fixing it; native Godot output, scripted input or labelled diagnostic preview.",
+      "media": {
+        "path": "media/source-inspector.mp4",
+        "sha256": "91eb0ae85079c4eba672715ed7c3da4a3f82f204b09234667525cfc1d95a2510"
+      }
+    },
+    {
+      "code_beat": "B06",
+      "result_beat": "B07",
+      "observation": "The selected pose follows the movement; native Godot output, scripted input or labelled diagnostic preview.",
+      "media": {
+        "path": "media/source-controls.mp4",
+        "sha256": "ace2e35af82753d7c5cf7e33b149b6b05ad24841c9da55000e5610516e2872b2"
+      }
+    },
+    {
+      "code_beat": "B08",
+      "result_beat": "B09",
+      "observation": "Physics carries the visible jump; native Godot output, scripted input or labelled diagnostic preview.",
+      "media": {
+        "path": "media/source-jump.mp4",
+        "sha256": "3a4a5759514a2148b5a4953a981331e1e2fcb2711ee2b40cb72f5d81f5766c33"
+      }
+    },
+    {
+      "code_beat": "B10",
+      "result_beat": "B11",
+      "observation": "The error animation does not own retry; native Godot output, scripted input or labelled diagnostic preview.",
+      "media": {
+        "path": "media/source-spike.mp4",
+        "sha256": "5772ba0092a0dc85a4f23ed442ea105d84b67584dcfa174a8af580e7259899e9"
+      }
+    },
+    {
+      "code_beat": "B12",
+      "result_beat": "B13",
+      "observation": "Paused means the pose stops too; native Godot output, scripted input or labelled diagnostic preview.",
+      "media": {
+        "path": "media/source-pause.mp4",
+        "sha256": "585bdb7f4b6be92886234c7fec11ea2cf8fd723b9de15220c10e9cd55158de79"
+      }
+    },
+    {
+      "code_beat": "B14",
+      "result_beat": "B15",
+      "observation": "The old course still completes; native Godot output, scripted input or labelled diagnostic preview.",
+      "media": {
+        "path": "media/source-finish.mp4",
+        "sha256": "f55fec5792e50d7a5789668878edef131f36bc0093186d614b3ea3c419a1a823"
+      }
+    },
+    {
+      "code_beat": "B19",
+      "result_beat": "B20",
+      "observation": "Gallery 1: idle through run; native Godot output, scripted input or labelled diagnostic preview.",
+      "media": {
+        "path": "media/source-gallery-one.mp4",
+        "sha256": "dd8eab75bd735b107bac2a6be1535e2a5086df0959f916f7662729c0b0eced9a"
+      }
+    }
+  ]
+}

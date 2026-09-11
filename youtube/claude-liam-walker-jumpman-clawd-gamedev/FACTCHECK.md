@@ -1,0 +1,3 @@
+# Source audit
+
+Narration follows CHANGE-BRIEF.md, FRICTIONAL.md and the exact new Godot source. Original physics function, tuning, level JSON and HUD are byte-identical to the starter. Mechanics: 25 checks, keyboard: 9 checks; animation: 162 independent sample points with 1,944 scalar comparisons and six staged presentation checks. No human playtest, new mini-goals, level extension or completed assignment is claimed. Gallery previews and suggested Claude prompts are labelled; their existence is not evidence of gameplay powers or a recorded chat. Capture identity, media hashes and edit decisions are checked before final assembly.

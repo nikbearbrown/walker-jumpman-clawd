@@ -1,0 +1,28 @@
+# Shot list
+
+- B00 · Professor Bear starts Assignment 1 · REMOTION
+- B01 · One character, the same level · REMOTION
+- B02 · The loop is one inspectable change · REMOTION
+- B03 · The same scene, a new presentation layer · REMOTION
+- B04 · Keep collision separate from the art · REMOTION
+- B05 · See the mismatch before fixing it · FOOTAGE
+- B06 · Choose the pose from real state · REMOTION
+- B07 · The selected pose follows the movement · FOOTAGE
+- B08 · Do not draw a second jump arc · REMOTION
+- B09 · Physics carries the visible jump · FOOTAGE
+- B10 · Session state owns failure and success · REMOTION
+- B11 · The error animation does not own retry · FOOTAGE
+- B12 · Freeze the presentation clock on pause · REMOTION
+- B13 · Paused means the pose stops too · FOOTAGE
+- B14 · The level still comes from the same data · REMOTION
+- B15 · The old course still completes · FOOTAGE
+- B16 · Tests have different jobs · REMOTION
+- B17 · Start early; keep the honest trail · REMOTION
+- B18 · The larger idea stays on the roadmap · REMOTION
+- B19 · One catalogue feeds a separate gallery · REMOTION
+- B20 · Gallery 1: idle through run · FOOTAGE
+- B21 · Gallery 2: thought and reaction · FOOTAGE
+- B22 · Gallery 3: motion and celebration · FOOTAGE
+- B23 · The verdict · REMOTION
+- B24 · Your turn · REMOTION
+- B25 · Regular outro · REMOTION

@@ -45,6 +45,16 @@ game will use task mini-goals and a completed agentic loop. Those mechanics, new
 hazards, and the required Assignment 1 level extension are **not built yet**.
 This character pass is not a completed assignment or a human playtest.
 
+## Liam explainers for this iteration
+
+The [film source and viewing guide](youtube/README.md) contains two 4K local
+renders: a played walkthrough and a game-development explainer with seven
+code-to-visible-result pairs. Both finish with all 18 animation previews and
+the regular Walker bookends/outro. The source recipes, scripts and evidence are
+in Git; MP4, audio and generated capture frames are deliberately excluded.
+Both are public with 4K available and English closed captions in the
+[CSYE 7270 course playlist](https://www.youtube.com/playlist?list=PLMhsxBEsgHFU).
+
 ## Historical starter documentation (September 10, 2026)
 
 The material below describes the original starter, not the current Clawd

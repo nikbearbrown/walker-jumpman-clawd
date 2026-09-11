@@ -1,0 +1,54 @@
+{
+  "GodotDevWorkbench": [
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B03"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B04"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B06"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B08"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B10"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B12"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B14"
+    },
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B19"
+    }
+  ],
+  "ClaudeComposerAsk": [
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B00"
+    }
+  ],
+  "AssignmentBoard": [
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B16"
+    }
+  ],
+  "ClaudeTitleOutro": [
+    {
+      "video": "claude-liam-walker-jumpman-clawd-gamedev",
+      "beat": "B25"
+    }
+  ]
+}

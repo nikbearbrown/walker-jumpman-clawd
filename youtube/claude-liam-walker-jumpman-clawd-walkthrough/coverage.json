@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "game": {
+    "name": "walker-jumpman-clawd",
+    "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b"
+  },
+  "captures": {
+    "buffer": {
+      "path": "media/source-buffer.mp4",
+      "sha256": "2708fb8749420dde392250c39628e9de14fbdc617efc8e2813411b502a8f3c3d",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/buffer-inputs.jsonl",
+      "duration_s": 5.2
+    },
+    "controls": {
+      "path": "media/source-controls.mp4",
+      "sha256": "ace2e35af82753d7c5cf7e33b149b6b05ad24841c9da55000e5610516e2872b2",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/controls-inputs.jsonl",
+      "duration_s": 6.3
+    },
+    "coyote": {
+      "path": "media/source-coyote.mp4",
+      "sha256": "1bf28808997fa2f5179a28c4063a7914007b5c24a3a6353df489fe634b1cd93a",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/coyote-inputs.jsonl",
+      "duration_s": 6.9
+    },
+    "fall": {
+      "path": "media/source-fall.mp4",
+      "sha256": "9104fc799c8a45a5fe35d6be5f0170370931031114b80e991696958e9471ecc4",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/fall-inputs.jsonl",
+      "duration_s": 6.833333
+    },
+    "finish": {
+      "path": "media/source-finish.mp4",
+      "sha256": "f55fec5792e50d7a5789668878edef131f36bc0093186d614b3ea3c419a1a823",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/finish-inputs.jsonl",
+      "duration_s": 10.066667
+    },
+    "gallery-one": {
+      "path": "media/source-gallery-one.mp4",
+      "sha256": "dd8eab75bd735b107bac2a6be1535e2a5086df0959f916f7662729c0b0eced9a",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/gallery-one-inputs.jsonl",
+      "duration_s": 20.0
+    },
+    "gallery-three": {
+      "path": "media/source-gallery-three.mp4",
+      "sha256": "c650a7c430e87c447695af143990f28f70e246b759f86b3313eaed82ff3e3df5",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/gallery-three-inputs.jsonl",
+      "duration_s": 20.0
+    },
+    "gallery-two": {
+      "path": "media/source-gallery-two.mp4",
+      "sha256": "616f9d29f98c1dc74250cad53a0295fe0ac772fdd9aa694d3259801ac25f4f52",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/gallery-two-inputs.jsonl",
+      "duration_s": 20.0
+    },
+    "jump": {
+      "path": "media/source-jump.mp4",
+      "sha256": "3a4a5759514a2148b5a4953a981331e1e2fcb2711ee2b40cb72f5d81f5766c33",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/jump-inputs.jsonl",
+      "duration_s": 6.366667
+    },
+    "mouse": {
+      "path": "media/source-mouse.mp4",
+      "sha256": "3e55cbcd5070e18d6e59d57be13e795ec8477c3a0b7d5fee67f8aa0d54fae7cb",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/mouse-inputs.jsonl",
+      "duration_s": 5.066667
+    },
+    "pause": {
+      "path": "media/source-pause.mp4",
+      "sha256": "585bdb7f4b6be92886234c7fec11ea2cf8fd723b9de15220c10e9cd55158de79",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/pause-inputs.jsonl",
+      "duration_s": 9.2
+    },
+    "spike": {
+      "path": "media/source-spike.mp4",
+      "sha256": "5772ba0092a0dc85a4f23ed442ea105d84b67584dcfa174a8af580e7259899e9",
+      "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+      "method": "scripted-input",
+      "input_log": "evidence/spike-inputs.jsonl",
+      "duration_s": 5.466667
+    }
+  },
+  "features": [
+    {
+      "id": "movement-boundary-braking-opposing-inputs",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "controls",
+          "beat_id": "B03",
+          "start_s": 0,
+          "action_s": 0.983333333333333,
+          "end_s": 6.25,
+          "observation": "Meet Clawd in the original course",
+          "riff": "Here is the actual Godot level. Enter starts, left and right move, and the character stops after release. Clawd's legs now animate with movement; the ground and controls have not been redesigned. These are scripted normal-input captures, not Professor Bear's playtest. The first visual question is simple: can you read this character at game size?"
+        }
+      ]
+    },
+    {
+      "id": "jump-held-no-double",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "jump",
+          "beat_id": "B04",
+          "start_s": 0,
+          "action_s": 0.983333333333333,
+          "end_s": 6.316667,
+          "observation": "One body, one physical jump",
+          "riff": "Watch the feet leave the ground and return. Holding Space does not bounce again on landing, and another press in the air does not create a double jump. The airborne drawing holds a pose while physics supplies the trajectory. An animation named jump must not secretly add another movement mechanic."
+        }
+      ]
+    },
+    {
+      "id": "hazard-retry",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "spike",
+          "beat_id": "B06",
+          "start_s": 0,
+          "action_s": 0.983333333333333,
+          "end_s": 5.416667,
+          "observation": "A mistake still returns control",
+          "riff": "Into the spikes: failure, a brief error animation, one retry, then control returns at the start. We did not invent a new hazard system. The character's reaction is presentation, while the session still owns the reset. Watch the result before deciding whether that visual reaction explains enough."
+        }
+      ]
+    },
+    {
+      "id": "fall-retry",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "fall",
+          "beat_id": "B07",
+          "start_s": 0,
+          "action_s": 0.983333333333333,
+          "end_s": 6.783333,
+          "observation": "Falling is a separate failure route",
+          "riff": "Missing the gap still ends the attempt and starts another. This is not the same test as touching spikes. Both need checking after a visual change because a new silhouette can change what a landing appears to mean. The observed retry works; whether the failure reads clearly is still a human judgment."
+        }
+      ]
+    },
+    {
+      "id": "coyote",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "coyote",
+          "beat_id": "B08",
+          "start_s": 0,
+          "action_s": 0.983333333333333,
+          "end_s": 6.8500000000000005,
+          "observation": "Keep the small forgiveness windows",
+          "riff": "Here the jump input arrives just after leaving a ledge, and the character still rises. This is the starter's coyote window, not a new Clawd power. The recording demonstrates this particular late jump. Boundary tests separately check the accepted and expired tick ages; one attractive replay does not prove every timing case."
+        }
+      ]
+    },
+    {
+      "id": "buffer",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "buffer",
+          "beat_id": "B09",
+          "start_s": 0,
+          "action_s": 0.983333333333333,
+          "end_s": 5.15,
+          "observation": "An early press can be remembered",
+          "riff": "Now Space arrives before landing, and the buffered request produces the next jump. The controller consumes that request once. This is different from holding a key forever. Keeping the original input behavior gives us a stable baseline while we inspect the new character. The art is the experiment; the jump rules are not."
+        }
+      ]
+    },
+    {
+      "id": "pause-resume-restart-focus-menu",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "pause",
+          "beat_id": "B10",
+          "start_s": 0,
+          "action_s": 0.983333333333333,
+          "end_s": 9.149999999999999,
+          "observation": "Pause is not another animation",
+          "riff": "Escape pauses the jump, Enter resumes, and R restarts. The capture also sends a labelled simulated focus-loss event, returns to the menu, and starts again. Pause freezes the animation clock as well as the player's motion. These scripted checks demonstrate the recorded controls, not an unstated human usability test."
+        }
+      ]
+    },
+    {
+      "id": "mouse-menu",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "mouse",
+          "beat_id": "B11",
+          "start_s": 0,
+          "action_s": 0.983333333333333,
+          "end_s": 5.016667,
+          "observation": "The mouse path still works",
+          "riff": "The menu's button also resumes and starts the game with mouse input. It is easy to check only the keyboard path you usually use. A small revision deserves a small but deliberate regression pass: does the rest of the existing interface still do what it did before?"
+        }
+      ]
+    },
+    {
+      "id": "finish-camera-hud-replay",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "finish",
+          "beat_id": "B12",
+          "start_s": 0,
+          "action_s": 0.983333333333333,
+          "end_s": 10.016667,
+          "observation": "Finish this course, then replay",
+          "riff": "Clawd clears the original steps and gaps, reaches the same finish, and celebrates. Enter starts a fresh run. This recorded route completes without a death. It is not yet the proposed agentic-loop game: the flag is still the original flag. Keeping that distinction visible is part of explaining what we actually built."
+        }
+      ]
+    },
+    {
+      "id": "animation-library-1",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "gallery-one",
+          "beat_id": "B15",
+          "start_s": 0,
+          "action_s": 0.1,
+          "end_s": 16.733333333333334,
+          "observation": "Gallery 1: idle through run",
+          "riff": "Idle, bounce, wave, look, walk, and run. Watch the four legs alternate and the eyes scan. These are actual Godot gallery previews of the ported library. Bounce and wave are available artwork, not player commands in this level. The gallery lets us judge options before choosing more behavior."
+        }
+      ]
+    },
+    {
+      "id": "animation-library-2",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "gallery-two",
+          "beat_id": "B16",
+          "start_s": 0,
+          "action_s": 0.1,
+          "end_s": 17.533333333333335,
+          "observation": "Gallery 2: thought and reaction",
+          "riff": "Think, type, sleep, error, nod, and shake. Their names suggest possible future coding-agent moments, but naming an animation does not implement a task system. Error currently reacts to failure; the others remain catalogue options. Choose a future state for a reason, then test whether the animation communicates it."
+        }
+      ]
+    },
+    {
+      "id": "animation-library-3",
+      "status": "implemented",
+      "evidence": [
+        {
+          "capture": "gallery-three",
+          "beat_id": "B17",
+          "start_s": 0,
+          "action_s": 0.1,
+          "end_s": 17.566666666666666,
+          "observation": "Gallery 3: motion and celebration",
+          "riff": "Dance, stretch, crouch, jump, spin, and celebrate. Spin flips horizontally instead of rotating the pixel rectangles. The gallery jump is decorative; gameplay uses its held pose while physics moves the body. Celebrate is connected to the current finish. All eighteen are here to inspect, not a promise of eighteen powers."
+        }
+      ]
+    },
+    {
+      "id": "task-mini-goals",
+      "status": "planned",
+      "reason": "Future design only",
+      "evidence": []
+    },
+    {
+      "id": "level-extension",
+      "status": "planned",
+      "reason": "Later Assignment 1 work",
+      "evidence": []
+    },
+    {
+      "id": "new-hazards",
+      "status": "planned",
+      "reason": "Later design decision",
+      "evidence": []
+    },
+    {
+      "id": "cherries-settings-export",
+      "status": "planned",
+      "reason": "Historical full GDD, not this playable slice",
+      "evidence": []
+    }
+  ]
+}

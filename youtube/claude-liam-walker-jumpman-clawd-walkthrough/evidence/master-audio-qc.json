@@ -1,0 +1,176 @@
+{
+  "passed": true,
+  "beats": [
+    {
+      "beat": "B00",
+      "start_s": 0.0,
+      "similarity": 0.9998091307528926,
+      "alignment_samples_16khz": 0,
+      "peak": 0.6500824093818665,
+      "passed": true
+    },
+    {
+      "beat": "B01",
+      "start_s": 17.433333333333334,
+      "similarity": 0.9957774790994496,
+      "alignment_samples_16khz": 0,
+      "peak": 0.5107443332672119,
+      "passed": true
+    },
+    {
+      "beat": "B02",
+      "start_s": 37.13333333333333,
+      "similarity": 0.995862569334269,
+      "alignment_samples_16khz": 0,
+      "peak": 0.7103736400604248,
+      "passed": true
+    },
+    {
+      "beat": "B03",
+      "start_s": 55.56666666666666,
+      "similarity": 0.9960217439787561,
+      "alignment_samples_16khz": 0,
+      "peak": 0.6446900367736816,
+      "passed": true
+    },
+    {
+      "beat": "B04",
+      "start_s": 73.83333333333333,
+      "similarity": 0.9948495362693517,
+      "alignment_samples_16khz": 0,
+      "peak": 0.9651809930801392,
+      "passed": true
+    },
+    {
+      "beat": "B05",
+      "start_s": 90.3,
+      "similarity": 0.999871875980587,
+      "alignment_samples_16khz": 0,
+      "peak": 0.7397634387016296,
+      "passed": true
+    },
+    {
+      "beat": "B06",
+      "start_s": 109.1,
+      "similarity": 0.9998442471333525,
+      "alignment_samples_16khz": 0,
+      "peak": 0.7055391073226929,
+      "passed": true
+    },
+    {
+      "beat": "B07",
+      "start_s": 125.6,
+      "similarity": 0.9998403776293076,
+      "alignment_samples_16khz": 0,
+      "peak": 0.9009802341461182,
+      "passed": true
+    },
+    {
+      "beat": "B08",
+      "start_s": 141.9,
+      "similarity": 0.9998475517562841,
+      "alignment_samples_16khz": 0,
+      "peak": 0.5947081446647644,
+      "passed": true
+    },
+    {
+      "beat": "B09",
+      "start_s": 160.03333333333333,
+      "similarity": 0.9950787002341484,
+      "alignment_samples_16khz": 0,
+      "peak": 0.6815198659896851,
+      "passed": true
+    },
+    {
+      "beat": "B10",
+      "start_s": 177.13333333333333,
+      "similarity": 0.996096745114528,
+      "alignment_samples_16khz": 0,
+      "peak": 0.7819328904151917,
+      "passed": true
+    },
+    {
+      "beat": "B11",
+      "start_s": 195.39999999999998,
+      "similarity": 0.9998471732739466,
+      "alignment_samples_16khz": 0,
+      "peak": 0.6424000859260559,
+      "passed": true
+    },
+    {
+      "beat": "B12",
+      "start_s": 210.2,
+      "similarity": 0.9998632985429535,
+      "alignment_samples_16khz": 0,
+      "peak": 0.7921366691589355,
+      "passed": true
+    },
+    {
+      "beat": "B13",
+      "start_s": 227.33333333333331,
+      "similarity": 0.9953976674941352,
+      "alignment_samples_16khz": 0,
+      "peak": 0.7741364240646362,
+      "passed": true
+    },
+    {
+      "beat": "B14",
+      "start_s": 247.2,
+      "similarity": 0.9998331591301801,
+      "alignment_samples_16khz": 0,
+      "peak": 0.7331264615058899,
+      "passed": true
+    },
+    {
+      "beat": "B15",
+      "start_s": 266.46666666666664,
+      "similarity": 0.9951798949562749,
+      "alignment_samples_16khz": 0,
+      "peak": 0.5557906031608582,
+      "passed": true
+    },
+    {
+      "beat": "B16",
+      "start_s": 283.2,
+      "similarity": 0.9998104688467703,
+      "alignment_samples_16khz": 0,
+      "peak": 0.8649476170539856,
+      "passed": true
+    },
+    {
+      "beat": "B17",
+      "start_s": 300.73333333333335,
+      "similarity": 0.9958760383995628,
+      "alignment_samples_16khz": 0,
+      "peak": 0.6129976511001587,
+      "passed": true
+    },
+    {
+      "beat": "B18",
+      "start_s": 318.3,
+      "similarity": 0.9998814684458623,
+      "alignment_samples_16khz": 0,
+      "peak": 0.6658491492271423,
+      "passed": true
+    },
+    {
+      "beat": "B19",
+      "start_s": 337.4666666666667,
+      "similarity": 0.995790585764313,
+      "alignment_samples_16khz": 0,
+      "peak": 0.7258586883544922,
+      "passed": true
+    },
+    {
+      "beat": "B20",
+      "start_s": 356.6333333333334,
+      "similarity": 0.9883085959291121,
+      "alignment_samples_16khz": 0,
+      "peak": 1.0851234197616577,
+      "passed": true
+    }
+  ],
+  "scope": "Source-to-final audio preservation, not a human pronunciation approval.",
+  "max_alignment_ms": 2,
+  "outro_sha256": "7f291ad84fd1c924fd20a9739b2d8492eaeb4324b5b41dfca21405aca55e3c47"
+}

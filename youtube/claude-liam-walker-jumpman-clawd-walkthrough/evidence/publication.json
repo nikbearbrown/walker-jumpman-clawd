@@ -1,0 +1,18 @@
+{
+  "state": "published",
+  "video_id": "0yXF1BMiokc",
+  "master_sha256": "4850f8639de537f0d31a85689e3c1d1d4eebd2b00953553c7c7f25d0369d82cc",
+  "channel_id": "UCg0cw2ouRhQ8dr114yGp0mA",
+  "playlist_id": "PLMhsxBEsgHFU",
+  "playlist_position": 2,
+  "published_at": "2026-09-11T06:00:50.453526+00:00",
+  "caption_id": "AUieDaZG6ze9OZuHL1fRjXLbe2afUx6mmNfg4gm3XtUtIvxVtBu6dZaA",
+  "served_4k": {
+    "video_id": "0yXF1BMiokc",
+    "quality": "2160p 4K",
+    "verification": "YouTube watch page Settings > Quality offered 2160p 4K; API confirms processed native 3840x2160 source.",
+    "browser_tab": "21",
+    "date": "2026-09-11",
+    "continuous_4k_playback_test": false
+  }
+}

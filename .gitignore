@@ -12,15 +12,18 @@
 *.wav
 exports/
 builds/
-node_modules/
+node_modules
 __pycache__/
 _capture-project/
 _project/
 _qc/
-capture/frames/
+_publish/
+**/capture/frames/
 clips/
 audio/
 mp3/
+youtube/**/media/
+youtube/**/remotion/public/*.ttf
 
 # Local credentials/configuration
 .env

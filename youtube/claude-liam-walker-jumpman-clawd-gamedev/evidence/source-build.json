@@ -1,0 +1,46 @@
+{
+  "project": "walker-jumpman-clawd",
+  "baseline_commit": "9387542ca473b0a252c43bfe6d4fd39b61f8d439",
+  "created_at": "2026-09-11T05:12:21.063Z",
+  "build_id": "91580b1859871437622d714fa8d0db625984d64a62c34fa4478dc324f0c2011b",
+  "source_sha256": {
+    "godot/.gitignore": "531d0d253cec1addb97b2cb2d144b6589ff934513eb9c9b8cf882cb49e4c0c32",
+    "godot/features/player/clawd_art.gd": "af4730c827cf8eaae1c94e848a6ff68f1883b2b7de9b12fdce8d8dd19d6cfd0d",
+    "godot/features/player/clawd_art.gd.uid": "9df20eeee61e30a010b0c3645ba149ecf647f8f4b0816084f342ee7d1559a069",
+    "godot/features/player/player.gd": "5fd90d53f477cdd77bbd1897d2fe09abf37ce4000640e4f66b9066fa92a40778",
+    "godot/features/player/player.gd.uid": "be96c2e71cbd69482fa0d107dfb1500a0054d2b963e9ba312e265bef985f0454",
+    "godot/features/player/tuning.gd": "7a09e96ef11bfa3e1e3b00849e84ed15b453a2e2780b9c94c90c376aea62aa37",
+    "godot/features/player/tuning.gd.uid": "9411c240407f1c4afbb5e85649ef3215765190421bc3621a7457e065e036751a",
+    "godot/gallery/clawd_gallery.gd": "104bf4dbff8636a679dc63c43479ed3e496b117020e1aeb0e9bd8cbe8d080f57",
+    "godot/gallery/clawd_gallery.gd.uid": "0cfb36b1124117e11434a701f400cb6f86f65f0d83e99320b3aa23dd9825da23",
+    "godot/gallery/clawd_gallery.tscn": "57543bc385a08c05d94cca8b8b3620ed54b5040416f249956e8ab9ad64fb6227",
+    "godot/game/main.tscn": "017da6e141ad6f6199a9219208483c82cacd257210dbaa6b1184a27157a63a2f",
+    "godot/game/session.gd": "8a4b63ad50c38c01176545cade23091beb905d8a2e962373fec778bd641431bd",
+    "godot/game/session.gd.uid": "cbd9b4dc192752918a54c94b364b7891028856b6de6a4391d924522985ffeb77",
+    "godot/levels/first_steps.json": "33b9b5c8dd0f0eaf162feed7533dd0d7774dd1e6cd9c9b6f353a849473a23d20",
+    "godot/project.godot": "cf69d0fda359ece4f56e34989b0bcd5b8d04edf371201efde6e374283b7e5807",
+    "godot/tests/capture_game.gd": "5bc82d2360e3758fd8d2f187ee15ddef0cc9afb6da0a7f3b4f37d660d8cff79f",
+    "godot/tests/capture_game.gd.uid": "8cf53498147f883577ede43615b84435334baed67df27a6309402c4bfb72a08a",
+    "godot/tests/clawd-reference.json": "d526434e067948bdd0d312b68e3aa21d63378aa89b97ac2eb46906e9ddeca1cf",
+    "godot/tests/route_driver.gd": "21996742044648210c75c6ca56f45f9e2264a45b5d09f8fe214055c047476cb3",
+    "godot/tests/route_driver.gd.uid": "15f93f25fce875261d44e9cd5dfcdd37919b2402465bc7cf14e14675fa31ad1b",
+    "godot/tests/test_clawd.gd": "acfc88d4ea6111b7cbe41f3d9768a7d5fa192f329e3ab54b170d46df82f42766",
+    "godot/tests/test_game.gd": "f41b7299da7cb1003653851749b25f464e48d0e26096e91015a270f83ae26cf4",
+    "godot/tests/test_game.gd.uid": "8609cea5d81e4b48a2567139bb19c251b1c91a84f6c2fac756800faa60f4ff78",
+    "godot/tests/test_keyboard.gd": "39b5d37039cee469aa6a87ab45acc852d1c55a7ebcebca5ec328d9d71413c6c9",
+    "godot/tests/test_keyboard.gd.uid": "05c50373e870d56b323a00a0e0b9c6e7ed6b07803ca839e97d84c4649b326ef8",
+    "godot/ui/hud.gd": "6cdf5b19f3b4684e8375c9db2c595031f76e862ccaa015098d4eb97ea2805e55",
+    "godot/ui/hud.gd.uid": "d2eaf3c885a55bcd31e9b2f36d3a5355f10105da426e96a9685434da00b28330"
+  },
+  "invariants": {
+    "physics_function": "byte-identical",
+    "preserved_files": [
+      "godot/features/player/tuning.gd",
+      "godot/levels/first_steps.json",
+      "godot/ui/hud.gd"
+    ],
+    "level_extension": "not implemented",
+    "mini_goals": "not implemented"
+  },
+  "human_playtest_sessions": 0
+}

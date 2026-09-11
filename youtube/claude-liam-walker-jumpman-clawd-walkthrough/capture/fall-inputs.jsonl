@@ -1,0 +1,14 @@
+{"detail":"menu","frame60":59,"kind":"marker","time_s":0.983333333333333}
+{"detail":"Enter","frame60":59,"kind":"key_down","time_s":0.983333333333333}
+{"detail":"Enter","frame60":61,"kind":"key_up","time_s":1.01666666666667}
+{"detail":"start","frame60":63,"kind":"marker","time_s":1.05}
+{"detail":"D","frame60":93,"kind":"key_down","time_s":1.55}
+{"detail":"Space","frame60":125,"kind":"key_down","time_s":2.08333333333333}
+{"detail":"Space","frame60":127,"kind":"key_up","time_s":2.11666666666667}
+{"detail":"D","frame60":129,"kind":"key_down","time_s":2.15}
+{"detail":"Space","frame60":182,"kind":"key_down","time_s":3.03333333333333}
+{"detail":"Space","frame60":184,"kind":"key_up","time_s":3.06666666666667}
+{"detail":"fall-contact","frame60":273,"kind":"marker","time_s":4.55}
+{"detail":"D","frame60":273,"kind":"key_up","time_s":4.55}
+{"detail":"fall-retry","frame60":320,"kind":"marker","time_s":5.33333333333333}
+{"detail":"end","frame60":410,"kind":"marker","time_s":6.83333333333333}

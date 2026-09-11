@@ -1,0 +1,749 @@
+1
+00:00:00,000 --> 00:00:02,833
+Please use Walker to convert my game
+design document about a
+
+2
+00:00:03,133 --> 00:00:06,267
+coding-agent platformer into one small
+revision: put Clawd in
+
+3
+00:00:06,267 --> 00:00:08,200
+the existing level. Preserve the
+mechanics.
+
+4
+00:00:08,733 --> 00:00:10,300
+I'm Liam, in for Professor Bear.
+
+5
+00:00:10,767 --> 00:00:12,967
+His project is Walker Jumpman Clawd.
+
+6
+00:00:13,000 --> 00:00:16,333
+The opening prompt is a suggested handoff,
+not a saved conversation.
+
+7
+00:00:17,433 --> 00:00:20,600
+We have changed the character, not
+completed the assignment.
+
+8
+00:00:20,933 --> 00:00:23,467
+Clawd now moves through the existing First
+Steps level.
+
+9
+00:00:23,767 --> 00:00:25,567
+The physics and layout remain the
+starter's.
+
+10
+00:00:26,067 --> 00:00:28,100
+A separate gallery contains eighteen
+animations.
+
+11
+00:00:28,700 --> 00:00:31,933
+Task mini-goals, new hazards, and the
+required level extension
+
+12
+00:00:31,933 --> 00:00:35,567
+are later decisions. This is the first
+revision of a semester-long
+
+13
+00:00:35,600 --> 00:00:36,100
+example.
+
+14
+00:00:37,133 --> 00:00:38,967
+Predict what might break. Build one
+change.
+
+15
+00:00:39,300 --> 00:00:42,067
+Play it, inspect the evidence, revise,
+then record the version.
+
+16
+00:00:42,467 --> 00:00:45,267
+Here the prediction is specific: Clawd's
+wide arms might make
+
+17
+00:00:45,267 --> 00:00:47,100
+the unchanged collision box misleading.
+
+18
+00:00:47,700 --> 00:00:50,133
+A small experiment gives us a question to
+answer.
+
+19
+00:00:50,600 --> 00:00:53,100
+Changing the character, level, and physics
+together would make
+
+20
+00:00:53,100 --> 00:00:54,467
+that answer harder to isolate.
+
+21
+00:00:55,567 --> 00:00:58,567
+The project still starts from main dot t s
+c n.
+
+22
+00:00:58,600 --> 00:01:01,700
+The session constructs platforms, hazards,
+player, camera, and
+
+23
+00:01:01,700 --> 00:01:04,833
+a separate interface layer. Clawd art is a
+drawing helper called
+
+24
+00:01:04,833 --> 00:01:08,167
+by the player. There is no imported sprite
+sheet, AnimationPlayer
+
+25
+00:01:08,200 --> 00:01:09,867
+node, or hidden agent service.
+
+26
+00:01:10,400 --> 00:01:13,100
+The coding agent is the character's theme,
+not an autonomous
+
+27
+00:01:13,100 --> 00:01:13,500
+player.
+
+28
+00:01:14,500 --> 00:01:17,600
+The rectangle shape is eighteen by
+twenty-eight, centered fourteen
+
+29
+00:01:17,633 --> 00:01:19,233
+units above the player's origin.
+
+30
+00:01:19,833 --> 00:01:21,433
+That places the reference at the feet.
+
+31
+00:01:21,700 --> 00:01:24,767
+We preserved this code. Changing the
+picture does not change
+
+32
+00:01:24,767 --> 00:01:27,767
+this collider, and testing the drawing
+alone cannot establish
+
+33
+00:01:27,767 --> 00:01:29,633
+that the visual boundary feels fair.
+
+34
+00:01:30,667 --> 00:01:33,233
+The blue outline is the collision
+reference; the orange arms
+
+35
+00:01:33,233 --> 00:01:37,133
+extend beyond it. Both views are enlarged,
+staged Godot drawings,
+
+36
+00:01:37,433 --> 00:01:40,500
+not gameplay. We have exposed the design
+question instead of
+
+37
+00:01:40,500 --> 00:01:43,600
+quietly widening the collider. That would
+change which hazards
+
+38
+00:01:43,600 --> 00:01:46,533
+and landings collide, so it deserves its
+own prediction and
+
+39
+00:01:46,533 --> 00:01:47,367
+regression tests.
+
+40
+00:01:48,400 --> 00:01:51,033
+This selector reads the session result,
+then grounded state
+
+41
+00:01:51,033 --> 00:01:54,733
+and horizontal speed. Completion
+celebrates, failure uses error,
+
+42
+00:01:55,067 --> 00:01:57,833
+air uses the jump pose, and speed chooses
+walk or run.
+
+43
+00:01:58,267 --> 00:01:59,667
+These names do not add inputs.
+
+44
+00:02:00,267 --> 00:02:03,167
+Run is an animation at the existing speed,
+not a new sprint
+
+45
+00:02:03,167 --> 00:02:03,533
+button.
+
+46
+00:02:04,600 --> 00:02:07,067
+Watch Clawd start, move, brake, and stand
+still.
+
+47
+00:02:07,567 --> 00:02:10,733
+The faster leg motion belongs to the
+existing velocity; it is
+
+48
+00:02:10,733 --> 00:02:13,633
+not driving the body. The controller
+remains authoritative.
+
+49
+00:02:13,967 --> 00:02:17,033
+The capture exercises both directions and
+opposing inputs.
+
+50
+00:02:17,500 --> 00:02:20,067
+Judge the silhouette while it moves, not
+only when a character
+
+51
+00:02:20,067 --> 00:02:21,000
+sheet looks tidy.
+
+52
+00:02:22,033 --> 00:02:24,200
+The paint helper treats airborne rendering
+specially.
+
+53
+00:02:24,633 --> 00:02:27,933
+It samples the library's apex pose, then
+removes the gallery's
+
+54
+00:02:27,933 --> 00:02:31,367
+decorative vertical jump offset. The
+CharacterBody supplies
+
+55
+00:02:31,367 --> 00:02:34,667
+the actual trajectory. Without that
+separation, the drawing
+
+56
+00:02:34,667 --> 00:02:37,500
+could appear to hop independently of the
+collider, making a
+
+57
+00:02:37,500 --> 00:02:38,800
+valid landing look wrong.
+
+58
+00:02:39,800 --> 00:02:41,667
+The character takes off and lands once.
+
+59
+00:02:42,033 --> 00:02:44,667
+Holding the button does not cause another
+jump, and the midair
+
+60
+00:02:44,667 --> 00:02:46,167
+press does not add a double jump.
+
+61
+00:02:46,633 --> 00:02:49,000
+The new art stays attached to the body's
+trajectory.
+
+62
+00:02:49,600 --> 00:02:52,600
+This is the visible consequence of
+separating display animation
+
+63
+00:02:52,600 --> 00:02:54,267
+from the game's physical movement.
+
+64
+00:02:55,233 --> 00:02:58,000
+This small read-only method translates the
+existing session
+
+65
+00:02:58,000 --> 00:03:01,700
+state into presentation context. Complete,
+failed, and paused
+
+66
+00:03:01,700 --> 00:03:03,400
+are descriptions for the drawing layer.
+
+67
+00:03:03,800 --> 00:03:06,833
+The method does not change state, grant
+completion, or postpone
+
+68
+00:03:06,833 --> 00:03:10,900
+a retry. Keeping ownership here prevents a
+missing or slow animation
+
+69
+00:03:10,900 --> 00:03:13,000
+from deciding whether the game recovers.
+
+70
+00:03:14,200 --> 00:03:17,033
+Clawd reaches the spike, reacts, and
+returns to the start on
+
+71
+00:03:17,033 --> 00:03:20,233
+the existing timer. The brief error
+animation does not have
+
+72
+00:03:20,233 --> 00:03:21,867
+to finish before the game can reset.
+
+73
+00:03:22,367 --> 00:03:26,200
+This is a small example of a useful
+boundary: presentation describes
+
+74
+00:03:26,200 --> 00:03:28,567
+the outcome; the session decides the
+outcome.
+
+75
+00:03:29,633 --> 00:03:32,600
+The frame update returns immediately when
+the session says paused.
+
+76
+00:03:33,133 --> 00:03:36,067
+Otherwise it chooses a pose, resets the
+animation clock on a
+
+77
+00:03:36,067 --> 00:03:38,900
+pose change, advances time, and requests a
+redraw.
+
+78
+00:03:39,500 --> 00:03:42,000
+None of those lines update velocity or
+collision.
+
+79
+00:03:42,500 --> 00:03:45,467
+Pause therefore freezes the pose without
+replacing the original
+
+80
+00:03:45,467 --> 00:03:46,600
+player physics function.
+
+81
+00:03:47,600 --> 00:03:50,067
+The jump and its pose hold during pause,
+then resume.
+
+82
+00:03:50,567 --> 00:03:53,433
+The captured sequence also retries and
+returns to the menu,
+
+83
+00:03:53,633 --> 00:03:55,567
+with focus loss explicitly simulated.
+
+84
+00:03:55,933 --> 00:03:57,833
+Machine checks support these observations.
+
+85
+00:03:58,367 --> 00:04:01,167
+A human still needs to judge whether the
+controls and feedback
+
+86
+00:04:01,167 --> 00:04:04,433
+are understandable; a passing script is
+not that judgment.
+
+87
+00:04:05,467 --> 00:04:08,200
+The solids, hazard, and finish coordinates
+are unchanged.
+
+88
+00:04:08,733 --> 00:04:11,633
+The session builds their collision and
+drawing; its camera follows
+
+89
+00:04:11,633 --> 00:04:13,100
+the player within the same bounds.
+
+90
+00:04:13,633 --> 00:04:16,500
+The interface still displays the original
+progress and retry
+
+91
+00:04:16,500 --> 00:04:20,367
+information. No task checkpoint was added
+just because the character
+
+92
+00:04:20,367 --> 00:04:21,933
+now represents a coding agent.
+
+93
+00:04:22,900 --> 00:04:24,667
+Follow the unchanged route to the flag.
+
+94
+00:04:25,067 --> 00:04:27,967
+The camera scrolls, the progress bar
+advances, and completion
+
+95
+00:04:27,967 --> 00:04:31,267
+offers replay. Clawd celebrates, but this
+is the starter's finish
+
+96
+00:04:31,267 --> 00:04:34,933
+condition. The future full-loop goal
+requires new state, reset
+
+97
+00:04:34,933 --> 00:04:37,033
+rules, tests, and a design decision.
+
+98
+00:04:37,433 --> 00:04:39,467
+Today we have evidence for this route
+only.
+
+99
+00:04:40,467 --> 00:04:43,267
+The original twenty-five mechanics checks
+and nine keyboard
+
+100
+00:04:43,267 --> 00:04:46,733
+checks pass. A separate test compares a
+hundred sixty-two animation
+
+101
+00:04:46,733 --> 00:04:50,133
+samples with Brutalist's TypeScript
+reference and checks presentation
+
+102
+00:04:50,133 --> 00:04:53,533
+selection. These are machine checks,
+including staged fixtures.
+
+103
+00:04:53,933 --> 00:04:56,400
+The recording driver uses normal input
+instead.
+
+104
+00:04:56,833 --> 00:04:59,633
+Neither kind proves that Bear likes the
+character or that another
+
+105
+00:04:59,633 --> 00:05:00,800
+player understands it.
+
+106
+00:05:01,633 --> 00:05:03,000
+A first scene can appear quickly.
+
+107
+00:05:03,333 --> 00:05:05,000
+Refinement is where the work continues.
+
+108
+00:05:05,300 --> 00:05:07,900
+Make an improvement today; come back for
+another improvement
+
+109
+00:05:07,900 --> 00:05:09,200
+or test in the next session.
+
+110
+00:05:09,733 --> 00:05:12,200
+If an attempt does not work, record what
+you tried, observed,
+
+111
+00:05:12,200 --> 00:05:15,467
+and learned in Frictional. Do not
+manufacture struggle or pretend
+
+112
+00:05:15,467 --> 00:05:17,600
+these changes happened across several
+days.
+
+113
+00:05:18,000 --> 00:05:20,567
+This iteration's entries are from one
+actual session.
+
+114
+00:05:21,500 --> 00:05:24,800
+Bear's longer-term idea is a coding agent
+crossing mini-goals:
+
+115
+00:05:24,833 --> 00:05:27,867
+a task completed, another task checked,
+and eventually a full
+
+116
+00:05:27,867 --> 00:05:31,167
+agentic loop finished. Those are design
+notes, not features
+
+117
+00:05:31,167 --> 00:05:34,467
+in today's build. The level extension is
+still required for
+
+118
+00:05:34,467 --> 00:05:37,600
+Assignment One. Starting with Clawd's
+appearance lets Bear decide
+
+119
+00:05:37,600 --> 00:05:39,833
+the next step from something he can
+actually play.
+
+120
+00:05:40,767 --> 00:05:43,567
+The gallery chooses six names for its
+current page and calls
+
+121
+00:05:43,567 --> 00:05:45,700
+the same painting helper used by the
+player.
+
+122
+00:05:46,100 --> 00:05:48,467
+This keeps the preview connected to the
+real implementation.
+
+123
+00:05:49,200 --> 00:05:52,133
+The next three pages show all eighteen
+available animations.
+
+124
+00:05:52,700 --> 00:05:55,867
+Only the smaller state-driven subset is
+connected to gameplay;
+
+125
+00:05:56,233 --> 00:05:58,000
+a preview does not create an ability.
+
+126
+00:05:58,967 --> 00:06:01,233
+Idle, bounce, wave, look, walk, and run.
+
+127
+00:06:01,567 --> 00:06:03,733
+Watch the four legs alternate and the eyes
+scan.
+
+128
+00:06:04,300 --> 00:06:07,300
+These are actual Godot gallery previews of
+the ported library.
+
+129
+00:06:07,733 --> 00:06:10,733
+Bounce and wave are available artwork, not
+player commands in
+
+130
+00:06:10,733 --> 00:06:13,833
+this level. The gallery lets us judge
+options before choosing
+
+131
+00:06:13,833 --> 00:06:14,633
+more behavior.
+
+132
+00:06:15,700 --> 00:06:17,800
+Think, type, sleep, error, nod, and shake.
+
+133
+00:06:18,267 --> 00:06:21,133
+Their names suggest possible future
+coding-agent moments, but
+
+134
+00:06:21,133 --> 00:06:23,767
+naming an animation does not implement a
+task system.
+
+135
+00:06:24,333 --> 00:06:27,167
+Error currently reacts to failure; the
+others remain catalogue
+
+136
+00:06:27,200 --> 00:06:30,767
+options. Choose a future state for a
+reason, then test whether
+
+137
+00:06:30,767 --> 00:06:32,333
+the animation communicates it.
+
+138
+00:06:33,233 --> 00:06:35,767
+Dance, stretch, crouch, jump, spin, and
+celebrate.
+
+139
+00:06:36,067 --> 00:06:39,200
+Spin flips horizontally instead of
+rotating the pixel rectangles.
+
+140
+00:06:39,567 --> 00:06:42,500
+The gallery jump is decorative; gameplay
+uses its held pose
+
+141
+00:06:42,500 --> 00:06:43,933
+while physics moves the body.
+
+142
+00:06:44,400 --> 00:06:46,267
+Celebrate is connected to the current
+finish.
+
+143
+00:06:46,700 --> 00:06:49,267
+All eighteen are here to inspect, not a
+promise of eighteen
+
+144
+00:06:49,267 --> 00:06:49,700
+powers.
+
+145
+00:06:50,800 --> 00:06:54,100
+The verdict: one recognizable character
+change, preserved mechanics,
+
+146
+00:06:54,100 --> 00:06:55,867
+and a visible question about collision.
+
+147
+00:06:56,400 --> 00:06:59,367
+The A I wrote and tested the
+implementation; Bear supplied the
+
+148
+00:06:59,367 --> 00:07:01,733
+intent and chooses what deserves another
+iteration.
+
+149
+00:07:02,233 --> 00:07:04,167
+Start early enough to inspect the result.
+
+150
+00:07:04,633 --> 00:07:07,767
+A test that reveals a problem can move the
+project forward without
+
+151
+00:07:07,767 --> 00:07:08,933
+making the feature complete.
+
+152
+00:07:09,967 --> 00:07:12,433
+Your turn. Please inspect Walker Jumpman
+Clawd.
+
+153
+00:07:12,433 --> 00:07:14,567
+Propose one visual improvement and one
+test.
+
+154
+00:07:14,800 --> 00:07:17,233
+Preserve the mechanics and log the result
+in Frictional.
+
+155
+00:07:17,800 --> 00:07:20,333
+Before accepting the change, check that it
+answers a specific
+
+156
+00:07:20,333 --> 00:07:23,333
+observation, leaves the existing controls
+intact, and names
+
+157
+00:07:23,333 --> 00:07:24,833
+what the test does not establish.
+
+158
+00:07:25,267 --> 00:07:26,300
+Then let a human play.
+
+159
+00:07:26,633 --> 00:07:28,067
+Liam, in for Professor Bear.

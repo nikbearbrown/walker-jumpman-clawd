@@ -1,12 +1,5 @@
 #!/bin/zsh
+# Compatibility alias for links in the inherited starter documentation.
 set -eu
-WALKER_GAME_DIR="$(cd -- "$(dirname -- "$0")" && pwd)"
-WALKER_ENGINE="/Applications/Godot.app/Contents/MacOS/Godot"
-if [[ ! -x "$WALKER_ENGINE" ]]; then
-  WALKER_ENGINE="$(command -v godot || true)"
-fi
-if [[ -z "$WALKER_ENGINE" || ! -x "$WALKER_ENGINE" ]]; then
-  printf 'Godot was not found. Install the regular Godot 4 engine in Applications.\n'
-  exit 1
-fi
-exec "$WALKER_ENGINE" --path "$WALKER_GAME_DIR/godot"
+CLAWD_DIR="$(cd -- "$(dirname -- "$0")" && pwd)"
+exec "$CLAWD_DIR/walker-jumpman-clawd.command"

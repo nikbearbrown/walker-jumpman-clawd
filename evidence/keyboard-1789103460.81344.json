@@ -1,0 +1,52 @@
+{
+  "engine": "4.7.2-stable (official)",
+  "failures": 0,
+  "results": [
+    {
+      "id": "enter-start",
+      "observed": "state=1",
+      "status": "PASS"
+    },
+    {
+      "id": "keyboard-move",
+      "observed": "x=91.022216796875",
+      "status": "PASS"
+    },
+    {
+      "id": "keyboard-jump",
+      "observed": "jumps=1",
+      "status": "PASS"
+    },
+    {
+      "id": "escape-pause",
+      "observed": "state=2",
+      "status": "PASS"
+    },
+    {
+      "id": "enter-resume",
+      "observed": "state=1",
+      "status": "PASS"
+    },
+    {
+      "id": "r-retry",
+      "observed": "position=(64.0, 320.0)",
+      "status": "PASS"
+    },
+    {
+      "id": "enter-replay",
+      "observed": "state=1",
+      "status": "PASS"
+    },
+    {
+      "id": "pause-main-menu",
+      "observed": "state=0",
+      "status": "PASS"
+    },
+    {
+      "id": "menu-start-again",
+      "observed": "state=1",
+      "status": "PASS"
+    }
+  ],
+  "scope": "Synthetic keyboard events through Godot Input, not human playtesting"
+}

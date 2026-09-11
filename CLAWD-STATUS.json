@@ -1,0 +1,19 @@
+{
+  "project": "walker-jumpman-clawd",
+  "iteration": 1,
+  "date": "2026-09-11",
+  "scope": "Character presentation and separate 18-animation gallery",
+  "source_manifest": "evidence/clawd/build-manifest.json",
+  "starter_physics_function": "unchanged",
+  "starter_layout_tuning_hud": "unchanged",
+  "mechanics_checks": {"passed": 25, "failed": 0},
+  "keyboard_checks": {"passed": 9, "failed": 0},
+  "animation_checks": {"samples": 162, "scalar_comparisons": 1944, "presentation_cases": 6, "failed": 0},
+  "human_playtest": "pending",
+  "level_extension": "not implemented",
+  "task_mini_goals": "not implemented",
+  "agentic_loop_finish": "not implemented",
+  "assignment_1_complete": false,
+  "films": "in production; check each reel's QC receipt for completion",
+  "video_publication": "not authorized"
+}

@@ -1,4 +1,56 @@
-# walker-jumpman — First Steps
+# walker-jumpman-clawd — Professor Bear's evolving example
+
+**Iteration 1: Clawd in the existing First Steps level.** The starter remains
+untouched in its own repository. This independent project is
+[nikbearbrown/walker-jumpman-clawd](https://github.com/nikbearbrown/walker-jumpman-clawd).
+
+```sh
+git clone https://github.com/nikbearbrown/walker-jumpman-clawd.git
+cd walker-jumpman-clawd
+godot --path godot
+```
+
+Or import `godot/project.godot` in the regular Godot editor and press F5. On Mac,
+double-click [walker-jumpman-clawd.command](walker-jumpman-clawd.command).
+Enter starts; A/D or arrows move; Space jumps; R retries; Escape/P pauses.
+
+Open [clawd-gallery.command](clawd-gallery.command) for all 18 animations, or
+run `godot --path godot res://gallery/clawd_gallery.tscn`. Arrow keys change
+pages, Space toggles automatic paging, C shows the collision reference, Esc exits.
+This is a **separate visual gallery, not 18 new gameplay abilities**.
+
+Gameplay chooses idle, walk, run, a held airborne jump pose, error on failure,
+and celebrate at completion. Pause freezes the pose. The wide art extends beyond
+the original 18 × 28 collision box; that tradeoff needs human inspection.
+
+[Change brief](CHANGE-BRIEF.md) · [Frictional effort log](FRICTIONAL.md) ·
+[Sources and human/AI contributions](SOURCES.md)
+
+![Clawd in the current Godot level](evidence/clawd/game.png)
+
+The 25 starter mechanics checks, nine keyboard checks, and sampled animation
+parity/presentation tests pass. [Current status](CLAWD-STATUS.json) is separate
+from inherited starter records. Run the checks from this repository:
+
+```sh
+godot --headless --path godot --script res://tests/test_game.gd --fixed-fps 60
+godot --headless --path godot --script res://tests/test_keyboard.gd --fixed-fps 60
+godot --headless --path godot --script res://tests/test_clawd.gd --fixed-fps 60
+node scripts/clawd-build.cjs
+```
+
+**Start early. Make one change, test it, and record what happened.** A failed
+attempt can be progress; it is not evidence that the feature works. The future
+game will use task mini-goals and a completed agentic loop. Those mechanics, new
+hazards, and the required Assignment 1 level extension are **not built yet**.
+This character pass is not a completed assignment or a human playtest.
+
+## Historical starter documentation (September 10, 2026)
+
+The material below describes the original starter, not the current Clawd
+iteration. Inherited GDD, DESIGN-STATUS, BUILD-REPORT, and evidence are historical;
+the current scope is the change brief above. Historical launcher paths and images
+refer to the starter. New receipts are recorded separately.
 
 **Playable source prototype · September 10, 2026 · Godot 4.7.2 / GDScript**
 

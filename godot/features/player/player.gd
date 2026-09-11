@@ -1,6 +1,9 @@
 extends CharacterBody2D
 
 const Tuning = preload("res://features/player/tuning.gd")
+const ClawdArt = preload("res://features/player/clawd_art.gd")
+var animation_seconds: float = 0.0
+var animation_name: String = "idle"
 var tuning = Tuning.new()
 var enabled: bool = false
 var tick: int = 0
@@ -67,14 +70,24 @@ func _physics_process(delta: float) -> void:
 	position.x = maxf(position.x, 10.0)
 	queue_redraw()
 
+func visual_animation() -> String:
+	var context: String = get_parent().player_animation_context()
+	if context == "complete": return "celebrate"
+	if context == "failed": return "error"
+	if not enabled: return "idle"
+	if not is_on_floor(): return "jump"
+	if absf(velocity.x) >= 100: return "run"
+	if absf(velocity.x) > 8: return "walk"
+	return "idle"
+
+func _process(delta: float) -> void:
+	if get_parent().player_animation_context() == "paused": return
+	var next_animation := visual_animation()
+	if next_animation != animation_name:
+		animation_seconds = 0.0
+		animation_name = next_animation
+	animation_seconds += delta
+	queue_redraw()
+
 func _draw() -> void:
-	var ink := Color("25354a")
-	var blue := Color("287baf")
-	var stride := sin(float(tick) * 0.7) * 2.0 if is_on_floor() and absf(velocity.x) > 8 else 0.0
-	draw_rect(Rect2(-9, -27, 18, 24), ink)
-	draw_rect(Rect2(-7, -25, 14, 20), blue)
-	draw_rect(Rect2(-10, -18, 20, 4), Color("ef875f"))
-	draw_rect(Rect2(-6, -4, 5, 4 + stride), ink)
-	draw_rect(Rect2(2, -4, 5, 4 - stride), ink)
-	draw_rect(Rect2(1 if facing > 0 else -6, -24, 5, 5), Color("fff9e9"))
-	draw_rect(Rect2(4 if facing > 0 else -6, -23, 2, 3), ink)
+	ClawdArt.paint(self, animation_name, animation_seconds, Vector2.ZERO, 0.32, facing, animation_name == "jump")

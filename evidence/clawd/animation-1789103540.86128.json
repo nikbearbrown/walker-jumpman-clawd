@@ -1,0 +1,7 @@
+{
+  "animation_samples": 162,
+  "checks": 1950,
+  "failures": 0,
+  "reference_sha256": "a659cea715fc6817d6f6439e43a0c634530a28b0428fa8386c248a887a0dbc93",
+  "scope": "Numeric animation parity and staged presentation checks, not human playtesting"
+}

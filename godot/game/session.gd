@@ -1,5 +1,13 @@
 extends Node2D
 
+func player_animation_context() -> String:
+	# Presentation reads session state; it never changes the gameplay state machine.
+	match state:
+		State.COMPLETE: return "complete"
+		State.DYING: return "failed"
+		State.PAUSED: return "paused"
+	return "playing"
+
 const Player = preload("res://features/player/player.gd")
 const Hud = preload("res://ui/hud.gd")
 enum State { MENU, PLAYING, PAUSED, DYING, COMPLETE }

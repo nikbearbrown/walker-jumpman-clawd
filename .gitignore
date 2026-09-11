@@ -12,6 +12,15 @@
 *.wav
 exports/
 builds/
+node_modules/
+__pycache__/
+_capture-project/
+_project/
+_qc/
+capture/frames/
+clips/
+audio/
+mp3/
 
 # Local credentials/configuration
 .env
